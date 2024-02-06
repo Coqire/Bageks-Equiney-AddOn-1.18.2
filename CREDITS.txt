@@ -32,5 +32,6 @@
 -----Asheerah-----
 
 -----Bagek-----
+BAGUETTE_FOOD
 
 ***TBC as mod developes***
