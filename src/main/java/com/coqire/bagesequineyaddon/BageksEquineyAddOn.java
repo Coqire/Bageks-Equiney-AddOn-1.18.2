@@ -1,5 +1,6 @@
 package com.coqire.bagesequineyaddon;
 
+import com.coqire.bagesequineyaddon.block.ModBlocks;
 import com.coqire.bagesequineyaddon.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class BageksEquineyAddOn {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

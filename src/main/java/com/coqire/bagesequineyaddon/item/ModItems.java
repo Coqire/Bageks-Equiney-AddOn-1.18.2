@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> BAGUETTE = ITEMS.register("baguette",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
+    public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
 
     public static void register(IEventBus eventBus) {
