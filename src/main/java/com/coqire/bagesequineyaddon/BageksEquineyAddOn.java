@@ -25,7 +25,6 @@ import java.util.stream.Collectors;
 public class BageksEquineyAddOn {
     public static final String Mod_ID = "bageksequineyaddon";
 
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public BageksEquineyAddOn() {
