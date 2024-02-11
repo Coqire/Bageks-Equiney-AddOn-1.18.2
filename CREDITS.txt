@@ -30,11 +30,12 @@
 ===TEXTURES ONLY===
 
 -----Asheerah-----
-BAGEK'S TACK SET
+HALTERS (1-7)
 
 -----Bagek-----
 SUNBURST_ORE
 SUNBURST
 BAGUETTE_FOOD
+HALTER ICONS (1-7)
 
 ***TBC as mod developes***
