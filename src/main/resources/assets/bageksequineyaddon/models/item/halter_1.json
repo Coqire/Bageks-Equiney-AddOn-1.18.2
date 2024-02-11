@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bageksequineyaddon:item/halters/bagek_halter"
+    "layer0": "bageksequineyaddon:item/halters/halter_1"
   }
 }
