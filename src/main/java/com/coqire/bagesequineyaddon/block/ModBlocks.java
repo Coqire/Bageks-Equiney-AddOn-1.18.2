@@ -1,6 +1,7 @@
 package com.coqire.bagesequineyaddon.block;
 
 import com.coqire.bagesequineyaddon.BageksEquineyAddOn;
+import com.coqire.bagesequineyaddon.item.ModCreativeModeTab;
 import com.coqire.bagesequineyaddon.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SUNBURST_ORE = registerBlock("sunburst_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.BAGEKSADDON_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
