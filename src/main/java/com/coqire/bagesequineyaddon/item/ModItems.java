@@ -10,7 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.List;
+
 public class ModItems {
+
+    public static List<RegistryObject<HalterItem>> HALTERS;
+
     public static DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BageksEquineyAddOn.Mod_ID);
 
@@ -19,13 +24,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> BAGEK_HALTER = ITEMS.register("bagek_halter",
+    public static final RegistryObject<Item> HALTER_1 = ITEMS.register("halter_1",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-
 
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
+
 
 }
