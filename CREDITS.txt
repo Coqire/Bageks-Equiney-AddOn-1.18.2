@@ -20,7 +20,7 @@
   Thankyou to Kyraltre for helping me understand coding more and help me make this possible.
   - https://discord.gg/GuYRWK22Mx
 
-  Thank you to Kaupenjoe for their amazing YouTube tutorials that showed me how to make this possible.
+  Thank you to Kaupenjoe for their YouTube tutorials that showed me how to make this possible.
   https://courses.kaupenjoe.net/
 
 -----------------------------------------------------------------------
@@ -30,8 +30,11 @@
 ===TEXTURES ONLY===
 
 -----Asheerah-----
+BAGEK'S TACK SET
 
 -----Bagek-----
+SUNBURST_ORE
+SUNBURST
 BAGUETTE_FOOD
 
 ***TBC as mod developes***
