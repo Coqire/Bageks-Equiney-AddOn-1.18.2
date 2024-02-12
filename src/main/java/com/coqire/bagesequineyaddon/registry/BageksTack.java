@@ -30,9 +30,5 @@ public class BageksTack {
 
         HALTERS = new ArrayList();
 
-        HALTERS.add(ITEMS.register("halter_", () -> {
-            return new HalterItem("halter_" , (new Item.Properties())
-                    .tab(ModCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16));
-        }));
     }
 }
