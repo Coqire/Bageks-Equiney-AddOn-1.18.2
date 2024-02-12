@@ -24,20 +24,21 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_1 = ITEMS.register("halter_1",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_2 = ITEMS.register("halter_2",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_3 = ITEMS.register("halter_3",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_4 = ITEMS.register("halter_4",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_5 = ITEMS.register("halter_5",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_6 = ITEMS.register("halter_6",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> HALTER_7 = ITEMS.register("halter_7",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_1 = ITEMS.register("halter_1",
+            () -> new HalterItem("halter_1", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_2 = ITEMS.register("halter_2",
+            () -> new HalterItem("halter_2", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_3 = ITEMS.register("halter_3",
+            () -> new HalterItem("halter_3", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_4 = ITEMS.register("halter_4",
+            () -> new HalterItem("halter_4", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_5 = ITEMS.register("halter_5",
+            () -> new HalterItem("halter_5", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<HalterItem> HALTER_6 = ITEMS.register("halter_6",
+            () -> new HalterItem("halter_6", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
+
+    public static final RegistryObject<HalterItem> HALTER_7 = ITEMS.register("halter_7",
+            () -> new HalterItem("halter_7", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB)));
 
 
     public static void register(IEventBus eventBus) {
