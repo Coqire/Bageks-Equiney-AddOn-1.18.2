@@ -11,9 +11,12 @@
   SWEMS mod belongs to them and this mod only uses their models and animations to create more items.
 
   ∞ CREDITS TO THE TEXTURE ARTIST ∞
-  Asheerah is the texture artist who made the (yet to be added) this mod uses. Please click their links below to join either their discord server or their kofi.
+  Asheerah : texture artist : Click their links below to join either their discord server or view their kofi.
   - https://discord.gg/zk9AYEQQ7P
   - https://ko-fi.com/asheerah
+
+  Reese : texture artist : Click their link below to view their kofi
+  - https://ko-fi.com/reesescorner
 
   ∞ GUIDANCE CREDITS ∞
 
@@ -30,7 +33,7 @@
 ===TEXTURES ONLY===
 
 -----Asheerah-----
-HALTERS (1-7)
+HALTER TEXTURES (1-7)
 
 -----Bagek-----
 SUNBURST_ORE
@@ -38,5 +41,10 @@ SUNBURST
 BAGUETTE_FOOD
 HALTER ICONS (1-7)
 HALTER RACKS (1-7)
+FLUFFY HALTERS (1-16)
+
+-----Reese-----
+
+
 
 ***TBC as mod developes***
