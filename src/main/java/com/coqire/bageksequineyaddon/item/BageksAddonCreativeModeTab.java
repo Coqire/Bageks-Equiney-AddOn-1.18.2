@@ -1,10 +1,9 @@
-package com.coqire.bagesequineyaddon.item;
+package com.coqire.bageksequineyaddon.item;
 
-import com.coqire.bagesequineyaddon.BageksEquineyAddOn;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-public class ModCreativeModeTab {
+public class BageksAddonCreativeModeTab {
     public static final CreativeModeTab BAGEKSADDON_TAB = new CreativeModeTab("bageksaddontab") {
         @Override
         public ItemStack makeIcon() {
