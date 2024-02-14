@@ -22,8 +22,8 @@ public class ModItems {
     public static List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;
     public static List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
 
-    //  LAYOUT   public static final RegistryObject<Item> - = ITEMS.register("-",
-    //            () -> new Item("-", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    //  LAYOUT   public static final RegistryObject<Item> _ = ITEMS.register("_",
+    //            () -> new Item("_", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     public static DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BageksEquineyAddOn.Mod_ID);
@@ -33,6 +33,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
             () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+
+    // Haters
     public static final RegistryObject<HalterItem> HALTER_1 = ITEMS.register("halter_1",
             () -> new HalterItem("halter_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> HALTER_2 = ITEMS.register("halter_2",
@@ -88,6 +90,17 @@ public class ModItems {
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_SAVV = ITEMS.register("halter_fluffy_savv",
             () -> new HalterItem("halter_fluffy_savv", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
+    // BreastCollars
+     public static final RegistryObject<BreastCollarItem> english_breast_collar_xc_black = ITEMS.register("english_breast_collar_xc_black",
+             () -> new BreastCollarItem("english_breast_collar_xc_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<BreastCollarItem> english_breast_collar_xc_fluffy_black = ITEMS.register("english_breast_collar_xc_fluffy_black",
+            () -> new BreastCollarItem("english_breast_collar_xc_fluffy_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
+    // Girth Straps
+    public static final RegistryObject<EnglishGirthStrap> english_girth_strap_xc_black = ITEMS.register("english_girth_strap_xc_black",
+            () -> new EnglishGirthStrap("english_girth_strap_xc_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishGirthStrap> english_girth_strap_xc_fluffy_black = ITEMS.register("english_girth_strap_xc_black",
+            () -> new EnglishGirthStrap("english_girth_strap_xc_fluffy_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
