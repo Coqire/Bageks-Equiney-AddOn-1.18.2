@@ -11,16 +11,18 @@ displayName="Bagek's Equiney Add-On"
 
 logoFile="examplemod.png"
 
-credits="Credits to Asheerah for the tack textures & the SWEM team for the original models."
+credits="Credits to all Bagek's Artist & the SWEM team for the original models."
 authors="Coqire"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+Bagek's Equiney Add-On {BEAOM} is a mod that is an addon and its own mod. It brings more variety of new tack for SWEM swem horses.
+All tack and most items in this mod will be eventually crafted using Sunburst, -- or --, which can be found in caves.
 
-Have some lorem ipsum.
+This mod will be created for 1.18.2. There are no plans as of now to bring it to 1.20 or 1.16.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Bagek's Official discord : https://discord.gg/ghkKE6WcqE
+
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.bageksequineyaddon]] #optional

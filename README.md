@@ -1,5 +1,5 @@
 # Bagek's Equiney Add-On
-Bagek's add-on mod is a mod that brings new blocks, items for people who want more equestrian things. This mod also adds new variants of the SWEM tack without replacing the original tack.
+Bagek's add-on mod is a mod that brings new blocks, items for people who want more equestrian things. This mod also adds new variants of the SWEM tack without replacing any of the original tack.
 
 ***Please note this mod is only early in development and has many things to come***
 
@@ -18,13 +18,14 @@ Besides the new tack the equiney add-on will bring new items/blocks like;
 ♞ poles  
 ♞ and more
 
-This mod will be created for 1.18.2. There are no plans as of now to bring it to 1.20 or 1.16.
+This mod will be created for 1.18.2. There are no plans *as of now* to bring it to 1.20 or 1.16.
 
 All these new models I made myself (unless specified in CREDITS).
 
 ### Thankyou to our helpers for putting time into this mod alongside myself.
 
-All rendered halters (On the SWEM horse) are textured by Asheerah [Join their discord here!](https://discord.gg/qb3Xu4nJkz)
+**Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)  
+**Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
 
 
 **TPC as mod developes**
