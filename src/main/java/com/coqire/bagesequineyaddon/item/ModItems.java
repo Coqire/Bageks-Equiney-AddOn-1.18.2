@@ -74,6 +74,10 @@ public class ModItems {
             () -> new HalterItem("halter_anna", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_ANNA = ITEMS.register("halter_fluffy_anna",
             () -> new HalterItem("halter_fluffy_anna", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_savv = ITEMS.register("halter_savv",
+            () -> new HalterItem("halter_savv", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_SAVV = ITEMS.register("halter_fluffy_savv",
+            () -> new HalterItem("halter_fluffy_savv", new Item.Properties().tab(ModCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
 
     public static void register(IEventBus eventBus) {
