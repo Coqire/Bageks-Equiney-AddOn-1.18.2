@@ -89,6 +89,15 @@ public class ModItems {
             () -> new HalterItem("halter_savv", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_SAVV = ITEMS.register("halter_fluffy_savv",
             () -> new HalterItem("halter_fluffy_savv", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_emma = ITEMS.register("halter_emma",
+            () -> new HalterItem("halter_emma", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_fluffy_emma = ITEMS.register("halter_fluffy_emma",
+            () -> new HalterItem("halter_fluffy_emma", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_reese = ITEMS.register("halter_reese",
+            () -> new HalterItem("halter_reese", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_fluffy_reese = ITEMS.register("halter_fluffy_reese",
+            () -> new HalterItem("halter_fluffy_reese", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
 
     // BreastCollars
      public static final RegistryObject<BreastCollarItem> english_breast_collar_xc_black = ITEMS.register("english_breast_collar_xc_black",
