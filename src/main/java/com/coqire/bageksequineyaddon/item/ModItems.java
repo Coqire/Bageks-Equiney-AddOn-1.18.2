@@ -137,6 +137,23 @@ public class ModItems {
     public static final RegistryObject<EnglishBlanketItem> english_blanket_8 = ITEMS.register("english_blanket_8",
             () -> new EnglishBlanketItem("english_blanket_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
+    //Leg wraps
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_1 = ITEMS.register("english_leg_wraps_1",
+        () -> new EnglishLegWraps("english_leg_wraps_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_2 = ITEMS.register("english_leg_wraps_2",
+            () -> new EnglishLegWraps("english_leg_wraps_2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_3 = ITEMS.register("english_leg_wraps_3",
+            () -> new EnglishLegWraps("english_leg_wraps_3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_4 = ITEMS.register("english_leg_wraps_4",
+            () -> new EnglishLegWraps("english_leg_wraps_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_5 = ITEMS.register("english_leg_wraps_5",
+            () -> new EnglishLegWraps("english_leg_wraps_5", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_6 = ITEMS.register("english_leg_wraps_6",
+            () -> new EnglishLegWraps("english_leg_wraps_6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_8 = ITEMS.register("english_leg_wraps_8",
+            () -> new EnglishLegWraps("english_leg_wraps_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

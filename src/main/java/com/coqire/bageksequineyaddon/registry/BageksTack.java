@@ -16,7 +16,7 @@ public class BageksTack {
     public static final List<RegistryObject<HalterItem>> HALTERS;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
     public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKETS;
-    public static final List<RegistryObject<LegWrapsItem>> ENGLISH_LEG_WRAPS;
+    public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS;
     public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLES;
     public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;

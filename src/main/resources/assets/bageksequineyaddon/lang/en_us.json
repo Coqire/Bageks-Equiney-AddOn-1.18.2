@@ -6,7 +6,7 @@
 
   "item.bageksequineyaddon.halter_1": "Bagek Halter",
   "item.bageksequineyaddon.halter_2": "Electric Blue Halter",
-  "item.bageksequineyaddon.halter_3": "Light Purple Halter",
+  "item.bageksequineyaddon.halter_3": "Royal Purple Halter",
   "item.bageksequineyaddon.halter_4": "Plum Halter",
   "item.bageksequineyaddon.halter_5": "Forest Green Halter",
   "item.bageksequineyaddon.halter_6": "Shamrock Halter",
@@ -51,9 +51,17 @@
   "item.bageksequineyaddon.english_blanket_2": "Electric Blue XC Pad",
   "item.bageksequineyaddon.english_blanket_3": "Royal Purple XC Pad",
   "item.bageksequineyaddon.english_blanket_4": "Plum XC Pad",
-  "item.bageksequineyaddon.english_blanket_5": "Forest XC Pad",
+  "item.bageksequineyaddon.english_blanket_5": "Forest Green XC Pad",
   "item.bageksequineyaddon.english_blanket_6": "Shamrock XC Pad",
   "item.bageksequineyaddon.english_blanket_8": "Asheerah XC Pad",
+
+  "item.bageksequineyaddon.english_leg_wraps_1": "Bagek XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_2": "Electric Blue XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_3": "Royal Purple XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_4": "Plum XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_5": "Forest Green XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_6": "Shamrock XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_8": "Asheerah XC Boots",
 
   "itemGroup.bageksaddontab": "Bageks Add-on"
 
