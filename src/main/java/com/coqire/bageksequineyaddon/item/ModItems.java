@@ -49,6 +49,22 @@ public class ModItems {
             () -> new HalterItem("halter_6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> HALTER_7 = ITEMS.register("halter_7",
             () -> new HalterItem("halter_7", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_8 = ITEMS.register("halter_8",
+            () -> new HalterItem("halter_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_9 = ITEMS.register("halter_9",
+            () -> new HalterItem("halter_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_10 = ITEMS.register("halter_10",
+            () -> new HalterItem("halter_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_11 = ITEMS.register("halter_11",
+            () -> new HalterItem("halter_11", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_12 = ITEMS.register("halter_12",
+            () -> new HalterItem("halter_12", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_13 = ITEMS.register("halter_13",
+            () -> new HalterItem("halter_13", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_14 = ITEMS.register("halter_14",
+            () -> new HalterItem("halter_14", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_15 = ITEMS.register("halter_15",
+            () -> new HalterItem("halter_15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> halter_fluffy_red = ITEMS.register("halter_fluffy_red",
             () -> new HalterItem("halter_fluffy_red", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> halter_fluffy_orange = ITEMS.register("halter_fluffy_orange",
