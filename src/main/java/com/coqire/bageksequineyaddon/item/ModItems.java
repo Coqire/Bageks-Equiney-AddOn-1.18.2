@@ -152,6 +152,21 @@ public class ModItems {
             () -> new EnglishBlanketItem("english_blanket_6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishBlanketItem> english_blanket_8 = ITEMS.register("english_blanket_8",
             () -> new EnglishBlanketItem("english_blanket_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_9 = ITEMS.register("english_blanket_9",
+            () -> new EnglishBlanketItem("english_blanket_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_10 = ITEMS.register("english_blanket_10",
+            () -> new EnglishBlanketItem("english_blanket_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_11 = ITEMS.register("english_blanket_11",
+            () -> new EnglishBlanketItem("english_blanket_11", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_12 = ITEMS.register("english_blanket_12",
+            () -> new EnglishBlanketItem("english_blanket_12", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_13 = ITEMS.register("english_blanket_13",
+            () -> new EnglishBlanketItem("english_blanket_13", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_14 = ITEMS.register("english_blanket_14",
+            () -> new EnglishBlanketItem("english_blanket_14", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_15 = ITEMS.register("english_blanket_15",
+            () -> new EnglishBlanketItem("english_blanket_15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
 
     //Leg wraps
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_1 = ITEMS.register("english_leg_wraps_1",
