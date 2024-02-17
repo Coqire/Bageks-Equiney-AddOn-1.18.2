@@ -152,6 +152,8 @@ public class ModItems {
             () -> new EnglishBlanketItem("english_blanket_6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishBlanketItem> english_blanket_8 = ITEMS.register("english_blanket_8",
             () -> new EnglishBlanketItem("english_blanket_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_7 = ITEMS.register("english_blanket_7",
+            () -> new EnglishBlanketItem("english_blanket_7", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishBlanketItem> english_blanket_9 = ITEMS.register("english_blanket_9",
             () -> new EnglishBlanketItem("english_blanket_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishBlanketItem> english_blanket_10 = ITEMS.register("english_blanket_10",
@@ -183,6 +185,8 @@ public class ModItems {
             () -> new EnglishLegWraps("english_leg_wraps_6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_8 = ITEMS.register("english_leg_wraps_8",
             () -> new EnglishLegWraps("english_leg_wraps_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_7 = ITEMS.register("english_leg_wraps_7",
+            () -> new EnglishLegWraps("english_leg_wraps_7", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_9 = ITEMS.register("english_leg_wraps_9",
             () -> new EnglishLegWraps("english_leg_wraps_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_10 = ITEMS.register("english_leg_wraps_10",
@@ -198,6 +202,17 @@ public class ModItems {
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_15 = ITEMS.register("english_leg_wraps_15",
             () -> new EnglishLegWraps("english_leg_wraps_15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
+// Protective Boots
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_1 = ITEMS.register("english_leg_wraps_protective_1",
+            () -> new EnglishLegWraps("english_leg_wraps_protective_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_4 = ITEMS.register("english_leg_wraps_protective_4",
+            () -> new EnglishLegWraps("english_leg_wraps_protective_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_8 = ITEMS.register("english_leg_wraps_protective_8",
+            () -> new EnglishLegWraps("english_leg_wraps_protective_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_9 = ITEMS.register("english_leg_wraps_protective_9",
+            () -> new EnglishLegWraps("english_leg_wraps_protective_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_10 = ITEMS.register("english_leg_wraps_protective_10",
+            () -> new EnglishLegWraps("english_leg_wraps_protective_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

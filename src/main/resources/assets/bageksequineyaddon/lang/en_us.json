@@ -61,6 +61,7 @@
   "item.bageksequineyaddon.english_blanket_4": "Plum XC Pad",
   "item.bageksequineyaddon.english_blanket_5": "Forest Green XC Pad",
   "item.bageksequineyaddon.english_blanket_6": "Shamrock XC Pad",
+  "item.bageksequineyaddon.english_blanket_7": "Teal XC Pad",
   "item.bageksequineyaddon.english_blanket_8": "Asheerah XC Pad",
   "item.bageksequineyaddon.english_blanket_9": "Black XC Pad",
   "item.bageksequineyaddon.english_blanket_10": "Navy XC Pad",
@@ -76,6 +77,7 @@
   "item.bageksequineyaddon.english_leg_wraps_4": "Plum XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_5": "Forest Green XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_6": "Shamrock XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_7": "Teal XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_8": "Asheerah XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_9": "Black XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_10": "Navy XC Boots",
@@ -84,6 +86,12 @@
   "item.bageksequineyaddon.english_leg_wraps_13": "Traffic Cone XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_14": "White XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_15": "Yellow XC Boots",
+
+  "item.bageksequineyaddon.english_leg_wraps_protective_1": "Bagek Protective Boots",
+  "item.bageksequineyaddon.english_leg_wraps_protective_4": "Plum Protective Boots",
+  "item.bageksequineyaddon.english_leg_wraps_protective_8": "Asheerah Protective Boots",
+  "item.bageksequineyaddon.english_leg_wraps_protective_9": "Black Protective Boots",
+  "item.bageksequineyaddon.english_leg_wraps_protective_10": "Navy Protective Boots",
 
   "itemGroup.bageksaddontab": "Bageks Add-on"
 
