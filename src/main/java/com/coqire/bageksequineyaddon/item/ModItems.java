@@ -1,6 +1,8 @@
 package com.coqire.bageksequineyaddon.item;
 
 import com.alaharranhonor.swem.forge.items.tack.*;
+import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
+import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 
 import com.coqire.bageksequineyaddon.BageksEquineyAddOn;
 import net.minecraft.world.item.Item;
@@ -226,6 +228,11 @@ public class ModItems {
             () -> new HalterItem("flymask_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> flymask_10 = ITEMS.register("flymask_10",
             () -> new HalterItem("flymask_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
+
+public static final RegistryObject<Item> pasture_blanket_1 = ITEMS.register("pasture_blanket_1",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                        "pasture_blanket_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
