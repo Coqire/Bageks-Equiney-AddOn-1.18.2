@@ -21,6 +21,7 @@ public class ModItems {
     public static List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;
     public static List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
+    public static List<RegistryObject<HalterItem>> FLYMASKS;
 
     //  LAYOUT   public static final RegistryObject<Item> _ = ITEMS.register("_",
     //            () -> new Item("_", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
@@ -213,6 +214,18 @@ public class ModItems {
             () -> new EnglishLegWraps("english_leg_wraps_protective_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_10 = ITEMS.register("english_leg_wraps_protective_10",
             () -> new EnglishLegWraps("english_leg_wraps_protective_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+
+    // Flymasks
+    public static final RegistryObject<HalterItem> flymask_1 = ITEMS.register("flymask_1",
+            () -> new HalterItem("flymask_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> flymask_4 = ITEMS.register("flymask_4",
+            () -> new HalterItem("flymask_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> flymask_8 = ITEMS.register("flymask_8",
+            () -> new HalterItem("flymask_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> flymask_9 = ITEMS.register("flymask_9",
+            () -> new HalterItem("flymask_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> flymask_10 = ITEMS.register("flymask_10",
+            () -> new HalterItem("flymask_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

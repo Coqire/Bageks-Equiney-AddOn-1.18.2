@@ -21,6 +21,7 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS;
 
 
     public BageksTack() {
@@ -41,6 +42,7 @@ public class BageksTack {
         ENGLISH_BREAST_COLLARS = new ArrayList();
         ENGLISH_BRIDLES = new ArrayList();
         ENGLISH_GIRTH_STRAPS = new ArrayList();
+        FLYMASKS = new ArrayList<>();
 
     }
 }
