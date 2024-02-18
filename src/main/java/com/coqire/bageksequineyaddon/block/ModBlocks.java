@@ -23,6 +23,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> SUNBURST_ORE = registerBlock("sunburst_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
+    public static final RegistryObject<Block> SUNBURST_BLOCK = registerBlock("sunburst_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
+    public static final RegistryObject<Block> EQUIUM_ORE = registerBlock("equium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
+    public static final RegistryObject<Block> EQUIUM_BLOCK = registerBlock("equium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
+    public static final RegistryObject<Block> CORALARITE_ORE = registerBlock("coralarite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
+    public static final RegistryObject<Block> CORALARITE_BLOCK = registerBlock("coralarite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
