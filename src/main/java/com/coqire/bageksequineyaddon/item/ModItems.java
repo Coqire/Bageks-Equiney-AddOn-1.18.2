@@ -36,6 +36,16 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
             () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> SUNBURST_SHARD = ITEMS.register("sunburst_shard",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> equium = ITEMS.register("equium",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> equium_shard = ITEMS.register("equium_shard",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> coralarite = ITEMS.register("coralarite",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> coralarite_shard = ITEMS.register("coralarite_shard",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
 
     // Haters
     public static final RegistryObject<HalterItem> HALTER_1 = ITEMS.register("halter_1",
