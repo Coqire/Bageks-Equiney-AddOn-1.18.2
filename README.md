@@ -26,6 +26,7 @@ All these new models I made myself (unless specified in CREDITS).
 
 **Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)  
 **Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
+**Savv** - Textures : [Join their discord here!] ()
 
 
 **TPC as mod developes**
