@@ -285,6 +285,22 @@ public static final RegistryObject<Item> pasture_blanket_1 = ITEMS.register("pas
     public static final RegistryObject<Item> pasture_blanket_15 = ITEMS.register("pasture_blanket_15",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> PASTURE_BLANKET_P1 = ITEMS.register("pasture_blanket_p1",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_p1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> PASTURE_BLANKET_P2 = ITEMS.register("pasture_blanket_p2",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_p2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> PASTURE_BLANKET_P3 = ITEMS.register("pasture_blanket_p3",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_p3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> PASTURE_BLANKET_P4 = ITEMS.register("pasture_blanket_p4",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_p4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> PASTURE_BLANKET_P5 = ITEMS.register("pasture_blanket_p5",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_p5", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
