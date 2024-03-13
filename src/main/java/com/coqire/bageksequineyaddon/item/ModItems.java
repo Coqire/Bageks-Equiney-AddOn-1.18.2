@@ -31,8 +31,15 @@ public class ModItems {
     public static DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BageksEquineyAddOn.Mod_ID);
 
+
     public static final RegistryObject<Item> BAGUETTE = ITEMS.register("baguette",
-            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).food(ModFoods.BAGUETTE)));
+    public static final RegistryObject<Item> PINK_DONUT_TREAT = ITEMS.register("pink_donut_treat",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).food(ModFoods.PINK_DONUT_TREAT)));
+    public static final RegistryObject<Item> BLUE_DONUT_TREAT = ITEMS.register("blue_donut_treat",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).food(ModFoods.BLUE_DONUT_TREAT)));
+    public static final RegistryObject<Item> YELLOW_DONUT_TREAT = ITEMS.register("yellow_donut_treat",
+            () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).food(ModFoods.YELLOW_DONUT_TREAT)));
 
     public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
             () -> new Item(new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
