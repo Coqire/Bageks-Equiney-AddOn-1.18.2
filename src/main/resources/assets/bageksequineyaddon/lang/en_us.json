@@ -4,7 +4,6 @@
   "item.bageksequineyaddon.blue_donut_treat": "Blue Donut Treat",
   "item.bageksequineyaddon.yellow_donut_treat": "Yellow Donut Treat",
 
-
   "item.bageksequineyaddon.sunburst": "Sunburst",
   "item.bageksequineyaddon.sunburst_shard": "Sunburst Shard",
   "item.bageksequineyaddon.equium": "Equium",
@@ -140,6 +139,23 @@
   "item.bageksequineyaddon.pasture_blanket_p4": "Mint Pasture Blanket",
   "item.bageksequineyaddon.pasture_blanket_p5": "Winter Pasture Blanket",
 
+  "item.bageksequineyaddon.sunburst_sword": "Sunburst Sword",
+  "item.bageksequineyaddon.sunburst_pickaxe": "Sunburst Pickaxe",
+  "item.bageksequineyaddon.sunburst_axe": "Sunburst Axe",
+  "item.bageksequineyaddon.sunburst_shovel": "Sunburst Shovel",
+  "item.bageksequineyaddon.sunburst_hoe": "Sunburst Hoe",
+
+  "item.bageksequineyaddon.equium_sword": "Equium Sword",
+  "item.bageksequineyaddon.equium_pickaxe": "Equium Pickaxe",
+  "item.bageksequineyaddon.equium_axe": "Equium Axe",
+  "item.bageksequineyaddon.equium_shovel": "Equium Shovel",
+  "item.bageksequineyaddon.equium_hoe": "Equium Hoe",
+
+  "items.bageksequineyaddon.coralarite_sword": "Coralarite Sword",
+  "items.bageksequineyaddon.coralarite_pickaxe": "Coralarite Pickaxe",
+  "items.bageksequineyaddon.coralarite_axe": "Coralarite Axe",
+  "items.bageksequineyaddon.coralarite_shovel": "Coralarite Shovel",
+  "items.bageksequineyaddon.coralarite_hoe": "Coralarite Hoe",
 
 
   "itemGroup.bageksaddontab": "Bageks Add-on"
