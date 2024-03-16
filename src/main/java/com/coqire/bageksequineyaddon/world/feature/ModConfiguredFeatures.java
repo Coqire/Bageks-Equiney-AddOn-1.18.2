@@ -13,7 +13,8 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_SUNBURST_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SUNBURST_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SUNBURST_ORE.get().defaultBlockState()),
+                OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_SUNBURST_ORE.get().defaultBlockState()));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SUNBURST_ORE = FeatureUtils.register("sunburst_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_SUNBURST_ORES, 5));
