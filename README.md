@@ -8,7 +8,7 @@ Bagek's add-on mod is a mod that brings new blocks, items for people who want mo
 ### ***About The Mod***
 Bagek's Equiney Add-On *{BEAOM}* is a mod that is both an addon and its own mod. It brings more variety of new tack for SWEM horses. 
 
-*All* tack and *most* items/blocks in this mod will be eventually crafted using either Sunburst, -- or --, which can be found in caves, creative mode or loot chests.
+*All* tack and *most* items/blocks in this mod will be eventually crafted using either Sunburst, Equium or Coralarite, which can be found in caves, creative mode or loot chests.
 All items/blocks will eventually be able to be crafted and available to view in JEI.
 
 Besides the new tack the equiney add-on will bring new items/blocks like;
@@ -26,7 +26,7 @@ All these new models I made myself (unless specified in CREDITS).
 
 **Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)  
 **Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
-**Savv** - Textures : [Join their discord here!] ()
+**Savv** - Textures : [Join their discord here!](https://discord.gg/5GKRq6K9ME)
 
 
 **TPC as mod developes**
