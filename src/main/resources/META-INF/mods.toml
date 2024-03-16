@@ -9,7 +9,7 @@ modId="bageksequineyaddon"
 version="${file.jarVersion}"
 displayName="Bagek's Equiney Add-On"
 
-logoFile="examplemod.png"
+logoFile="logo.png"
 
 credits="Credits to all Bagek's Artist & the SWEM team for the original models."
 authors="Coqire"
@@ -17,7 +17,7 @@ authors="Coqire"
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Bagek's Equiney Add-On {BEAOM} is a mod that is an addon and its own mod. It brings more variety of new tack for SWEM swem horses.
-All tack and most items in this mod will be eventually crafted using Sunburst, -- or --, which can be found in caves.
+All tack and most items in this mod will be eventually crafted using Sunburst, Equium or Coralarite, which can be found in caves.
 
 This mod will be created for 1.18.2. There are no plans as of now to bring it to 1.20 or 1.16.
 
