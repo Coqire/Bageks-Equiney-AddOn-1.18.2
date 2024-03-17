@@ -68,6 +68,8 @@
 
   "item.bageksequineyaddon.english_breast_collar_xc_black": "Black XC Breast Collar" ,
   "item.bageksequineyaddon.english_breast_collar_xc_fluffy_black": "Black XC Fluffy Breast Collar",
+  "item.bageksequineyaddon.english_breast_collar_freemotion_black": "Black Freemotion Breast Collar",
+  "item.bageksequineyaddon.english_breast_collar_freemotion_brown": "Brown FreeMotion Breast Collar",
 
   "item.bageksequineyaddon.english_girth_strap_xc_black": "Black XC Girth",
  "item.bageksequineyaddon.english_girth_strap_xc_fluffy_black": "Black XC Fluffy Girth",
@@ -92,6 +94,11 @@
   "item.bageksequineyaddon.english_blanket_b13": "Traffic Cone XC Pad",
   "item.bageksequineyaddon.english_blanket_b14": "White XC Pad",
   "item.bageksequineyaddon.english_blanket_b15": "Yellow XC Pad",
+  "item.bageksequineyaddon.english_blanket_p1": "Blush XC Pad",
+  "item.bageksequineyaddon.english_blanket_p4": "Eggnog XC Pad",
+  "item.bageksequineyaddon.english_blanket_p8": "Lilac XC Pad",
+  "item.bageksequineyaddon.english_blanket_p9": "Mint XC Pad",
+  "item.bageksequineyaddon.english_blanket_p10": "Winter XC Pad",
 
   "item.bageksequineyaddon.english_leg_wraps_b1": "Bagek XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_b2": "Electric Blue XC Boots",
@@ -108,6 +115,11 @@
   "item.bageksequineyaddon.english_leg_wraps_b13": "Traffic Cone XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_b14": "White XC Boots",
   "item.bageksequineyaddon.english_leg_wraps_b15": "Yellow XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_p1": "Blush XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_p4": "Eggnog XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_p8": "Lilac XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_p9": "Mint XC Boots",
+  "item.bageksequineyaddon.english_leg_wraps_p10": "Winter XC Boots",
 
   "item.bageksequineyaddon.english_leg_wraps_protective_1": "Bagek Protective Boots",
   "item.bageksequineyaddon.english_leg_wraps_protective_4": "Plum Protective Boots",
@@ -141,6 +153,12 @@
   "item.bageksequineyaddon.pasture_blanket_p3": "Lilac Pasture Blanket",
   "item.bageksequineyaddon.pasture_blanket_p4": "Mint Pasture Blanket",
   "item.bageksequineyaddon.pasture_blanket_p5": "Winter Pasture Blanket",
+
+  "item.bageksequineyaddon.pasture_blanket_flysheet_b1": "Bagek Flysheet",
+  "item.bageksequineyaddon.pasture_blanket_flysheet_b4": "Plum Flysheet",
+  "item.bageksequineyaddon.pasture_blanket_flysheet_b8": "Asheerah Flysheet",
+  "item.bageksequineyaddon.pasture_blanket_flysheet_b9": "Black Flysheet",
+  "item.bageksequineyaddon.pasture_blanket_flysheet_b10": "Navy Flysheet",
 
   "item.bageksequineyaddon.sunburst_sword": "Sunburst Sword",
   "item.bageksequineyaddon.sunburst_pickaxe": "Sunburst Pickaxe",

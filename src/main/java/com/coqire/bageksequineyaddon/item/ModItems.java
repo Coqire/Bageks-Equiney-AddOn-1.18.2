@@ -150,6 +150,10 @@ public class ModItems {
              () -> new BreastCollarItem("english_breast_collar_xc_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<BreastCollarItem> english_breast_collar_xc_fluffy_black = ITEMS.register("english_breast_collar_xc_fluffy_black",
             () -> new BreastCollarItem("english_breast_collar_xc_fluffy_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<BreastCollarItem> english_breast_collar_freemotion_black = ITEMS.register("english_breast_collar_freemotion_black",
+            () -> new BreastCollarItem("english_breast_collar_freemotion_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<BreastCollarItem> english_breast_collar_freemotion_brown = ITEMS.register("english_breast_collar_freemotion_brown",
+            () -> new BreastCollarItem("english_breast_collar_freemotion_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     // Girth Straps
     public static final RegistryObject<EnglishGirthStrap> english_girth_strap_xc_black = ITEMS.register("english_girth_strap_xc_black",
@@ -198,6 +202,16 @@ public class ModItems {
             () -> new EnglishBlanketItem("english_blanket_b14", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishBlanketItem> english_blanket_b15 = ITEMS.register("english_blanket_b15",
             () -> new EnglishBlanketItem("english_blanket_b15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_p1 = ITEMS.register("english_blanket_p1",
+            () -> new EnglishBlanketItem("english_blanket_p1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_p4 = ITEMS.register("english_blanket_p4",
+            () -> new EnglishBlanketItem("english_blanket_p4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_p8 = ITEMS.register("english_blanket_p8",
+            () -> new EnglishBlanketItem("english_blanket_p8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_p9 = ITEMS.register("english_blanket_p9",
+            () -> new EnglishBlanketItem("english_blanket_p9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishBlanketItem> english_blanket_p10 = ITEMS.register("english_blanket_p10",
+            () -> new EnglishBlanketItem("english_blanket_p10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
 
     //Leg wraps
@@ -231,6 +245,16 @@ public class ModItems {
             () -> new EnglishLegWraps("english_leg_wraps_b14", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_b15 = ITEMS.register("english_leg_wraps_b15",
             () -> new EnglishLegWraps("english_leg_wraps_b15", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p1 = ITEMS.register("english_leg_wraps_p1",
+            () -> new EnglishLegWraps("english_leg_wraps_p1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p4 = ITEMS.register("english_leg_wraps_p4",
+            () -> new EnglishLegWraps("english_leg_wraps_p4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p8 = ITEMS.register("english_leg_wraps_p8",
+            () -> new EnglishLegWraps("english_leg_wraps_p8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p9 = ITEMS.register("english_leg_wraps_p9",
+            () -> new EnglishLegWraps("english_leg_wraps_p9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p10 = ITEMS.register("english_leg_wraps_p10",
+            () -> new EnglishLegWraps("english_leg_wraps_p10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
 // Protective Boots
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_protective_1 = ITEMS.register("english_leg_wraps_protective_1",
@@ -317,6 +341,21 @@ public static final RegistryObject<Item> pasture_blanket_b1 = ITEMS.register("pa
     public static final RegistryObject<Item> pasture_blanket_P5 = ITEMS.register("pasture_blanket_p5",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_p5", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_b1 = ITEMS.register("pasture_blanket_flysheet_b1",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_flysheet_b1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_b4 = ITEMS.register("pasture_blanket_flysheet_b4",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_flysheet_b4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_b8 = ITEMS.register("pasture_blanket_flysheet_b8",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_flysheet_b8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_b9 = ITEMS.register("pasture_blanket_flysheet_b9",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_flysheet_b9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_b10 = ITEMS.register("pasture_blanket_flysheet_b10",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_flysheet_b10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
 
     // Weapons
     public static final RegistryObject<Item> SUNBURST_SWORD = ITEMS.register("sunburst_sword",
