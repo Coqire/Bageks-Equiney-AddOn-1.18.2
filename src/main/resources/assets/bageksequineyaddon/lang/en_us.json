@@ -15,8 +15,10 @@
   "block.bageksequineyaddon.deepslate_sunburst_ore": "Deepslate Sunburst Ore",
   "block.bageksequineyaddon.sunburst_block": "Sunburst Block",
   "block.bageksequineyaddon.equium_ore": "Equium Ore",
+  "block.bageksequineyaddon.deepslate_equium_ore": "Deepslate Equium Ore",
   "block.bageksequineyaddon.equium_block": "Equium Block",
   "block.bageksequineyaddon.coralarite_ore": "Coralarite Ore",
+  "block.bageksequineyaddon.deepslate_coralarite_ore": "Deepslate Coralarite Ore",
   "block.bageksequineyaddon.coralarite_block": "Coralarite Block",
 
   "item.bageksequineyaddon.halter_b1": "Bagek Halter",
@@ -152,11 +154,11 @@
   "item.bageksequineyaddon.equium_shovel": "Equium Shovel",
   "item.bageksequineyaddon.equium_hoe": "Equium Hoe",
 
-  "items.bageksequineyaddon.coralarite_sword": "Coralarite Sword",
-  "items.bageksequineyaddon.coralarite_pickaxe": "Coralarite Pickaxe",
-  "items.bageksequineyaddon.coralarite_axe": "Coralarite Axe",
-  "items.bageksequineyaddon.coralarite_shovel": "Coralarite Shovel",
-  "items.bageksequineyaddon.coralarite_hoe": "Coralarite Hoe",
+  "item.bageksequineyaddon.coralarite_sword": "Coralarite Sword",
+  "item.bageksequineyaddon.coralarite_pickaxe": "Coralarite Pickaxe",
+  "item.bageksequineyaddon.coralarite_axe": "Coralarite Axe",
+  "item.bageksequineyaddon.coralarite_shovel": "Coralarite Shovel",
+  "item.bageksequineyaddon.coralarite_hoe": "Coralarite Hoe",
 
 
   "itemGroup.bageksaddontab": "Bageks Add-on"
