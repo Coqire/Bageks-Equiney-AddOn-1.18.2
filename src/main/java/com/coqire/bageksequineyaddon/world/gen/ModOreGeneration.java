@@ -15,6 +15,8 @@ public class ModOreGeneration {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
         base.add(ModPlacedFeatures.SUNBURST_ORE_PLACED);
+        base.add(ModPlacedFeatures.EQUIUM_ORE_PLACED);
+        base.add(ModPlacedFeatures.CORALARITE_ORE_PLACED);
     }
 }
 
