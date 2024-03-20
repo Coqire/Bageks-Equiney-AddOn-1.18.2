@@ -370,6 +370,15 @@ public static final RegistryObject<Item> pasture_blanket_b1 = ITEMS.register("pa
     public static final RegistryObject<Item> pasture_blanket_flysheet_b10 = ITEMS.register("pasture_blanket_flysheet_b10",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_flysheet_b10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_patterned1 = ITEMS.register("pasture_blanket_patterned1",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_patterned1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_patterned2 = ITEMS.register("pasture_blanket_patterned2",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_patterned2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_patterned3 = ITEMS.register("pasture_blanket_patterned3",
+            () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                    "pasture_blanket_patterned3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
 
     // Weapons
     public static final RegistryObject<Item> SUNBURST_SWORD = ITEMS.register("sunburst_sword",
