@@ -264,7 +264,7 @@ public class ModItems {
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p2 = ITEMS.register("english_leg_wraps_p2",
             () -> new EnglishLegWraps("english_leg_wraps_p2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p3 = ITEMS.register("english_leg_wraps_p3",
-            () -> new EnglishLegWraps("english_leg_wraps_p4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+            () -> new EnglishLegWraps("english_leg_wraps_p3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p4 = ITEMS.register("english_leg_wraps_p4",
             () -> new EnglishLegWraps("english_leg_wraps_p4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<EnglishLegWraps> english_leg_wraps_p5 = ITEMS.register("english_leg_wraps_p5",
