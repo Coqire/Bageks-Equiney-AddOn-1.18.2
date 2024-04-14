@@ -1,16 +1,22 @@
 package com.coqire.bageksequineyaddon.registry;
 
 
+import com.alaharranhonor.swem.forge.entities.horse.needs.FeedItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModeTab;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+
+import static com.alaharranhonor.swem.forge.entities.horse.needs.Feeds.registerItemFeed;
 
 public class BageksTack {
     public static final DeferredRegister<Item> ITEMS;
@@ -25,6 +31,8 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_BAGEK;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAP_BAGEK;
     public static final List<RegistryObject<HalterItem>> FLYMASK_BAGEK;
+    public static final Ingredient FOOD_ITEMS;
+    public Set<ResourceLocation> eatenSpecialFeeds = new HashSet();
 
 
     public BageksTack() {
@@ -77,5 +85,33 @@ public class BageksTack {
 
         }
 
+    }
+
+    private static final Map<ResourceLocation, FeedItem> ALL_FEEDS = new HashMap();
+
+   public static final FeedItem CAKE;
+
+    public void addSpecialFeedToList(ResourceLocation id) {
+        this.eatenSpecialFeeds.add(id);
+    }
+
+    public static FeedItem registerItemFeed(FeedItem feed) {
+        ALL_FEEDS.put(feed.id(), feed);
+        return feed;
+    }
+
+    static{
+
+        FOOD_ITEMS = Ingredient.of(new ItemLike[]{Items.CAKE});
+
+        CAKE = registerItemFeed(FeedItem.builder(Ingredient.of(new ItemLike[]{Items.CAKE}), FeedItem.Category.TREATS).points(3).max(7).onEaten((horse, limited) -> {
+            if (!limited) {
+                horse.progressionManager.getAffinityLeveling().addXP(1.0F);
+            }
+        }));
+    }
+
+    private static FeedItem registerItemFeed(FeedItem.Builder builder) {
+        return null;
     }
 }
