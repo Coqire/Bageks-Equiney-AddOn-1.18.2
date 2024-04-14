@@ -13,20 +13,21 @@ All items/blocks will eventually be able to be crafted and available to view in 
 
 Besides the new tack the equiney add-on will bring new items/blocks like;
 
-♞ more jumps  
-♞ barrels  
-♞ poles  
+♞ different tack sets
+♞ plenty of different colours
+♞ a bunch of different types of tack
 ♞ and more
 
-This mod will be created for 1.18.2. There are no plans *as of now* to bring it to 1.20 or 1.16.
+This mod will be created for 1.18.2 and 1.20. There are no plans *as of now* to bring it to 1.16.
 
 All these new models I made myself (unless specified in CREDITS).
 
 ### Thankyou to our helpers for putting time into this mod alongside myself.
 
-**Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)  
-**Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
+**Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)
 **Savv** - Textures : [Join their discord here!](https://discord.gg/5GKRq6K9ME)
 
+*Past helpers*
+**Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
 
 **TPC as mod developes**
