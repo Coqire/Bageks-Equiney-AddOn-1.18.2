@@ -11,16 +11,16 @@
       "item": "minecraft:white_carpet"
     },
     "y": {
-      "tag": "forge:dyes/lime_dye"
+      "item": "minecraft:lime_dye"
     },
     "w": {
       "item": "bageksequineyaddon:coralarite"
     },
     "z": {
-      "tag": "forge:dyes/cyan_dye"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:halter_p5"
+    "item": "bageksequineyaddon:halter_bagek_p5"
   }
 }

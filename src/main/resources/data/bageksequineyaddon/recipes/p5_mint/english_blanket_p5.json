@@ -17,16 +17,16 @@
       "item": "bageksequineyaddon:coralarite"
     },
     "d": {
-      "tag": "forge:dyes/cyan_dye"
+      "item": "minecraft:cyan_dye"
     },
     "b": {
-      "tag": "forge:dyes/lime_dye"
+      "item": "minecraft:lime_dye"
     },
     "a": {
-      "tag": "forge:dyes/white_dye"
+      "item": "minecraft:white_dye"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:english_blanket_p5"
+    "item": "bageksequineyaddon:english_blanket_bagek_p5"
   }
 }

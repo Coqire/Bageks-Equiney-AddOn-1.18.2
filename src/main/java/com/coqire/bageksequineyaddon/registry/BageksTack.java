@@ -22,7 +22,6 @@ public class BageksTack {
     public static final DeferredRegister<Item> ITEMS;
     public static final List<RegistryObject<HalterItem>> HALTER_BAGEK;
     public static final List<RegistryObject<HalterItem>> HALTER_FLUFFY_BAGEK;
-    public static final List<RegistryObject<HalterItem>> HALTER_BAGEK_PASTEL;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKET_BAGEK;
     public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKET_BAGEK;
     public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_BAGEK;
@@ -46,7 +45,6 @@ public class BageksTack {
         ITEMS = DeferredRegister.create(Keys.ITEMS, "bageksequineyaddon");
 
         HALTER_BAGEK = new ArrayList();
-        HALTER_BAGEK_PASTEL = new ArrayList();
         HALTER_FLUFFY_BAGEK = new ArrayList<>();
         PASTURE_BLANKET_BAGEK = new ArrayList();
         ENGLISH_BLANKET_BAGEK = new ArrayList();
@@ -69,11 +67,6 @@ public class BageksTack {
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
-            HALTER_BAGEK_PASTEL.add(ITEMS.register("halter_bagek_p" + counter, () ->
-                    new HalterItem("halter_bagek_p" + counter, (new Item.Properties())
-                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
-            ));
-
             FLYMASK_BAGEK.add(ITEMS.register("flymask_bagek_" + counter, () ->
                     new HalterItem("flymask_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
@@ -83,6 +76,12 @@ public class BageksTack {
                     new EnglishBlanketItem("english_blanket_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
+
+            ENGLISH_LEG_WRAPS_BAGEK.add(ITEMS.register("english_leg_wraps_bagek_" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_bagek" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
 
             ++rContext.var2;
 

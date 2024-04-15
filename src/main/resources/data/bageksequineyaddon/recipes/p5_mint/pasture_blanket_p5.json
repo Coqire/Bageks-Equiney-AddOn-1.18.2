@@ -14,10 +14,10 @@
       "item": "bageksequineyaddon:coralarite"
     },
     "a": {
-      "tag": "forge:dyes/lime_dye"
+      "item": "minecraft:lime_dye"
     },
     "b": {
-      "tag": "forge:dyes/cyan_dye"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {
