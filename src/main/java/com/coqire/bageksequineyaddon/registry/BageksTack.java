@@ -2,6 +2,7 @@ package com.coqire.bageksequineyaddon.registry;
 
 
 import com.alaharranhonor.swem.forge.entities.horse.needs.FeedItem;
+import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
@@ -79,6 +80,12 @@ public class BageksTack {
 
             ENGLISH_LEG_WRAPS_BAGEK.add(ITEMS.register("english_leg_wraps_bagek_" + counter, () ->
                     new EnglishLegWraps("english_leg_wraps_bagek" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            PASTURE_BLANKET_BAGEK.add(ITEMS.register("pasture_blanket_bagek_" + counter, () ->
+                    new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                            "pasture_blanket_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 

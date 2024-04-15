@@ -1,5 +1,6 @@
 package com.coqire.bageksequineyaddon.registry;
 
+import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.EnglishLegWraps;
 import com.alaharranhonor.swem.forge.items.tack.HalterItem;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
@@ -50,6 +51,11 @@ public class BageksPastelTack {
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
+            PASTURE_BLANKET_BAGEK_PASTEL.add(ITEMS.register("pasture_blanket_bagek_p" + counter, () ->
+                    new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                            "pasture_blanket_bagek_p" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
 
             ++rContext.var2;
 
