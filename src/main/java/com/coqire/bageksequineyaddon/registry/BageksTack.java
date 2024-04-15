@@ -69,7 +69,6 @@ public class BageksTack {
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
-
             HALTER_BAGEK_PASTEL.add(ITEMS.register("halter_bagek_p" + counter, () ->
                     new HalterItem("halter_bagek_p" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
@@ -80,6 +79,10 @@ public class BageksTack {
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
+            ENGLISH_BLANKET_BAGEK.add(ITEMS.register("english_blanket_bagek_" + counter, () ->
+                    new EnglishBlanketItem("english_blanket_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
 
             ++rContext.var2;
 
