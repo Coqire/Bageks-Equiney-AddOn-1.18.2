@@ -89,21 +89,21 @@ public class ModItems {
     public static final RegistryObject<HalterItem> halter_fluffy_bagek_emma = ITEMS.register("halter_fluffy_bagek_emma",
             () -> new HalterItem("halter_fluffy_bagek_emma", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
-    public static final RegistryObject<Item> pasture_blanket_flysheet_b1 = ITEMS.register("pasture_blanket_flysheet_b1",
+    public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_1 = ITEMS.register("pasture_blanket_flysheet_bagek_1",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_flysheet_b1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> pasture_blanket_flysheet_b4 = ITEMS.register("pasture_blanket_flysheet_b4",
+                    "pasture_blanket_flysheet_bagek_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_4 = ITEMS.register("pasture_blanket_flysheet_bagek_4",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_flysheet_b4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> pasture_blanket_flysheet_b8 = ITEMS.register("pasture_blanket_flysheet_b8",
+                    "pasture_blanket_flysheet_bagek_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_8 = ITEMS.register("pasture_blanket_flysheet_bagek_8",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_flysheet_b8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> pasture_blanket_flysheet_b9 = ITEMS.register("pasture_blanket_flysheet_b9",
+                    "pasture_blanket_flysheet_bagek_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_9 = ITEMS.register("pasture_blanket_flysheet_bagek_9",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_flysheet_b9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
-    public static final RegistryObject<Item> pasture_blanket_flysheet_b10 = ITEMS.register("pasture_blanket_flysheet_b10",
+                    "pasture_blanket_flysheet_bagek_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+    public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_10 = ITEMS.register("pasture_blanket_flysheet_bagek_10",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                    "pasture_blanket_flysheet_b10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
+                    "pasture_blanket_flysheet_bagek_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
     public static final RegistryObject<Item> pasture_blanket_patterned1 = ITEMS.register("pasture_blanket_patterned1",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_patterned1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB)));
