@@ -96,6 +96,11 @@ public class BageksTack {
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
+            HALTER_FLUFFY_BAGEK.add(ITEMS.register("halter_fluffy_bagek_" + counter, () ->
+                    new HalterItem("halter_fluffy_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
 
             ++rContext.var2;
 
