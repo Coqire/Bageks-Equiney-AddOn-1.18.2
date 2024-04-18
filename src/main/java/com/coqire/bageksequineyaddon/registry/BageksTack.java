@@ -31,6 +31,7 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_BAGEK;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAP_BAGEK;
     public static final List<RegistryObject<HalterItem>> FLYMASK_BAGEK;
+    public static final List<RegistryObject<EnglishBreastCollar>> QUARTERSHEET_BAGEK;
     public static final Ingredient FOOD_ITEMS;
     public Set<ResourceLocation> eatenSpecialFeeds = new HashSet();
 
@@ -55,6 +56,7 @@ public class BageksTack {
         ENGLISH_BRIDLE_BAGEK = new ArrayList();
         ENGLISH_GIRTH_STRAP_BAGEK = new ArrayList();
         FLYMASK_BAGEK = new ArrayList<>();
+        QUARTERSHEET_BAGEK = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
@@ -79,13 +81,18 @@ public class BageksTack {
             ));
 
             ENGLISH_LEG_WRAPS_BAGEK.add(ITEMS.register("english_leg_wraps_bagek_" + counter, () ->
-                    new EnglishLegWraps("english_leg_wraps_bagek" + counter, (new Item.Properties())
+                    new EnglishLegWraps("english_leg_wraps_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
             PASTURE_BLANKET_BAGEK.add(ITEMS.register("pasture_blanket_bagek_" + counter, () ->
                     new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                             "pasture_blanket_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            QUARTERSHEET_BAGEK.add(ITEMS.register("quartersheet_bagek_" + counter, () ->
+                    new EnglishBreastCollar("quartersheet_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
