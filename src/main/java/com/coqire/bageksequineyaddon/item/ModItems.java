@@ -76,18 +76,18 @@ public class ModItems {
             () -> new HalterItem("halter_fluffy_bagek_gray", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> halter_fluffy_bagek_black = ITEMS.register("halter_fluffy_bagek_black",
             () -> new HalterItem("halter_fluffy_bagek_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
-    public static final RegistryObject<HalterItem> halter_bagek_anna = ITEMS.register("halter_bagek_anna",
-            () -> new HalterItem("halter_bagek_anna", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
-    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_ANNA = ITEMS.register("halter_fluffy_bagek_anna",
-            () -> new HalterItem("halter_fluffy_bagek_anna", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
-    public static final RegistryObject<HalterItem> halter_bagek_savv = ITEMS.register("halter_bagek_savv",
-            () -> new HalterItem("halter_bagek_savv", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
-    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_SAVV = ITEMS.register("halter_fluffy_bagek_savv",
-            () -> new HalterItem("halter_fluffy_bagek_savv", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_bagek_staff_2 = ITEMS.register("halter_bagek_staff_2",
+            () -> new HalterItem("halter_bagek_staff_2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_staff_2 = ITEMS.register("halter_fluffy_bagek_staff_2",
+            () -> new HalterItem("halter_fluffy_bagek_staff_2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_bagek_staff_4 = ITEMS.register("halter_bagek_staff_4",
+            () -> new HalterItem("halter_bagek_staff_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_staff_4 = ITEMS.register("halter_fluffy_bagek_staff_4",
+            () -> new HalterItem("halter_fluffy_bagek_staff_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
     public static final RegistryObject<HalterItem> halter_bagek_emma = ITEMS.register("halter_bagek_emma",
-            () -> new HalterItem("halter_bagek_emma", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
-    public static final RegistryObject<HalterItem> halter_fluffy_bagek_emma = ITEMS.register("halter_fluffy_bagek_emma",
-            () -> new HalterItem("halter_fluffy_bagek_emma", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+            () -> new HalterItem("halter_bagek_staff_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
+    public static final RegistryObject<HalterItem> halter_fluffy_bagek_staff_1 = ITEMS.register("halter_fluffy_bagek_staff_1",
+            () -> new HalterItem("halter_fluffy_bagek_staff_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(4)));
 
     public static final RegistryObject<Item> pasture_blanket_flysheet_bagek_1 = ITEMS.register("pasture_blanket_flysheet_bagek_1",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
