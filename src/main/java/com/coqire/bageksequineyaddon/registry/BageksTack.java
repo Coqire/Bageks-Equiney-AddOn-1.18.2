@@ -5,6 +5,7 @@ import com.alaharranhonor.swem.forge.entities.horse.needs.FeedItem;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModeTab;
+import com.coqire.bageksequineyaddon.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -32,6 +33,8 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAP_BAGEK;
     public static final List<RegistryObject<HalterItem>> FLYMASK_BAGEK;
     public static final List<RegistryObject<EnglishBreastCollar>> QUARTERSHEET_BAGEK;
+
+
     public static final Ingredient FOOD_ITEMS;
     public Set<ResourceLocation> eatenSpecialFeeds = new HashSet();
 
@@ -58,7 +61,7 @@ public class BageksTack {
         FLYMASK_BAGEK = new ArrayList<>();
         QUARTERSHEET_BAGEK = new ArrayList<>();
 
-        int var1 = 15;
+        int var1 = 20;
         var rContext = new Object() {
             int var2 = 1;
         };
