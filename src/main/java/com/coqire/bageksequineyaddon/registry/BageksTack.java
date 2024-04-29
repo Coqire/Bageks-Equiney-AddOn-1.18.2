@@ -33,6 +33,9 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAP_BAGEK;
     public static final List<RegistryObject<HalterItem>> FLYMASK_BAGEK;
     public static final List<RegistryObject<EnglishBreastCollar>> QUARTERSHEET_BAGEK;
+    public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKET_BAGEK;
+    public static final List<RegistryObject<WesternLegWraps>> WESTERN_LEG_WRAPS_BAGEK;
+    public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLAR_BAGEK;
 
 
     public static final Ingredient FOOD_ITEMS;
@@ -60,6 +63,9 @@ public class BageksTack {
         ENGLISH_GIRTH_STRAP_BAGEK = new ArrayList();
         FLYMASK_BAGEK = new ArrayList<>();
         QUARTERSHEET_BAGEK = new ArrayList<>();
+        WESTERN_BLANKET_BAGEK = new ArrayList();
+        WESTERN_BREAST_COLLAR_BAGEK = new ArrayList();
+        WESTERN_LEG_WRAPS_BAGEK = new ArrayList();
 
         int var1 = 20;
         var rContext = new Object() {
@@ -101,6 +107,21 @@ public class BageksTack {
 
             HALTER_FLUFFY_BAGEK.add(ITEMS.register("halter_fluffy_bagek_" + counter, () ->
                     new HalterItem("halter_fluffy_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            WESTERN_LEG_WRAPS_BAGEK.add(ITEMS.register("western_leg_wraps_bagek_" + counter, () ->
+                    new WesternLegWraps("western_leg_wraps_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            WESTERN_BLANKET_BAGEK.add(ITEMS.register("western_blanket_bagek_" + counter, () ->
+                    new WesternBlanketItem("western_blanket_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            WESTERN_BREAST_COLLAR_BAGEK.add(ITEMS.register("western_breast_collar_bagek_" + counter, () ->
+                    new WesternBreastCollarItem("western_breast_collar_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
