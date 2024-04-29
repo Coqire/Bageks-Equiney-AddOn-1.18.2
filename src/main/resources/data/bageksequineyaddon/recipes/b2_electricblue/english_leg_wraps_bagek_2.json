@@ -1,26 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "pasture_blanket",
+  "group": "english_leg_wraps",
   "pattern": [
-    " ##",
-    "###",
-    "bxa"
+    "x x",
+    "y y",
+    "w z"
   ],
   "key": {
-    "#": {
+    "x": {
       "item": "minecraft:white_carpet"
     },
-    "x": {
+    "y": {
       "item": "bageksequineyaddon:coralarite"
     },
-    "a": {
-      "item": "minecraft:cyan_dye"
-    },
-    "b": {
+    "z": {
       "item": "minecraft:light_blue_dye"
+    },
+    "w": {
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:pasture_blanket_bagek_b2"
+    "item": "bageksequineyaddon:english_leg_wraps_bagek_2"
   }
 }
