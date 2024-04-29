@@ -23,6 +23,7 @@ public class BageksPastelTack {
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKET_BAGEK_PASTEL;
     public static final List<RegistryObject<EnglishBreastCollar>> QUARTERSHEET_BAGEK_PASTEL;
     public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKET_BAGEK_PASTEL;
+    public static final List<RegistryObject<HalterItem>> FLYMASK_BAGEK_PASTEL;
 
     public static void init(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -37,6 +38,7 @@ public class BageksPastelTack {
         QUARTERSHEET_BAGEK_PASTEL = new ArrayList();
         ENGLISH_BLANKET_BAGEK_PASTEL = new ArrayList();
         HALTER_FLUFFY_BAGEK_PASTEL = new ArrayList();
+        FLYMASK_BAGEK_PASTEL = new ArrayList();
 
         int var1 = 7;
         var rContext = new Object() {
@@ -73,6 +75,11 @@ public class BageksPastelTack {
 
             HALTER_FLUFFY_BAGEK_PASTEL.add(ITEMS.register("halter_fluffy_bagek_p" + counter, () ->
                     new HalterItem("halter_fluffy_bagek_p" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            FLYMASK_BAGEK_PASTEL.add(ITEMS.register("flymask_bagek_p" + counter, () ->
+                    new HalterItem("flymask_bagek_p" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
