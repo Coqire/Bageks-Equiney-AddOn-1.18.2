@@ -2,9 +2,7 @@ package com.coqire.bageksequineyaddon;
 
 import com.coqire.bageksequineyaddon.block.ModBlocks;
 import com.coqire.bageksequineyaddon.item.ModItems;
-import com.coqire.bageksequineyaddon.registry.BageksMainTack;
-import com.coqire.bageksequineyaddon.registry.BageksPastelTack;
-import com.coqire.bageksequineyaddon.registry.BageksTack;
+import com.coqire.bageksequineyaddon.registry.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +27,8 @@ public class BageksEquineyAddOn {
         BageksTack.init(eventBus);
         BageksPastelTack.init(eventBus);
         BageksMainTack.init(eventBus);
+        BageksOneOffTack.init(eventBus);
+        BageksOriginalTack.init(eventBus);
 
         eventBus.addListener(this::setup);
 
