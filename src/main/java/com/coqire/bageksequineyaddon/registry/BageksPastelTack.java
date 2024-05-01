@@ -46,7 +46,7 @@ public class BageksPastelTack {
         WESTERN_BLANKET_BAGEK_PASTEL = new ArrayList();
         WESTERN_LEG_WRAPS_BAGEK_PASTEL = new ArrayList();
 
-        int var1 = 7;
+        int var1 = 8;
         var rContext = new Object() {
             int var2 = 1;
         };
