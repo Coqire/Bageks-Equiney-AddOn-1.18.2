@@ -26,6 +26,7 @@ All these new models I made myself (unless specified in CREDITS).
 
 **Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)
 **Savv** - Textures : [Join their discord here!](https://discord.gg/5GKRq6K9ME)
+**Phantom** - Dev : [View his Linktree!](https://linktr.ee/PhantomsKeep)
 
 *Past helpers*
 **Reese** - Textures : [View their kofi!](https://ko-fi.com/reesescorner)
