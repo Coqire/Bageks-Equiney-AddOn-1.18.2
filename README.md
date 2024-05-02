@@ -24,7 +24,7 @@ All these new models I made myself (unless specified in CREDITS).
 
 ### Thankyou to our helpers for putting time into this mod alongside myself.
 
-**Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)
+**Asheerah** - Textures : [Join their discord here!](https://discord.gg/qb3Xu4nJkz)  
 **Savv** - Textures : [Join their discord here!](https://discord.gg/5GKRq6K9ME)
 
 *Past helpers*
