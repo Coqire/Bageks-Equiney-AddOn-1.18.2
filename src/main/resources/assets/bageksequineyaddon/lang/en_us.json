@@ -77,12 +77,15 @@
   "item.bageksequineyaddon.english_breast_collar_xc_fluffy_black": "Black XC Fluffy Breast Collar",
   "item.bageksequineyaddon.english_breast_collar_freemotion_black": "Black Dressage Breast Collar",
   "item.bageksequineyaddon.english_breast_collar_english_black": "Black English Breastcollar",
+ "item.bageksequineyaddon.english_breast_collar_bagek_fivepoint_black": "Black Five Point Breast Collar",
+
   "item.bageksequineyaddon.english_breast_collar_xc_brown": "Brown XC Breast Collar" ,
   "item.bageksequineyaddon.english_breast_collar_xc_fluffy_brown": "Brown XC Fluffy Breast Collar",
   "item.bageksequineyaddon.english_breast_collar_freemotion_brown": "Brown Dressage Breast Collar",
   "item.bageksequineyaddon.english_breast_collar_english_brown": "Brown English Breastcollar",
+ "item.bageksequineyaddon.english_breast_collar_bagek_fivepoint_brown": "Brown Five Point Breast Collar",
 
-  "item.bageksequineyaddon.english_girth_strap_xc_black": "Black XC Girth",
+ "item.bageksequineyaddon.english_girth_strap_xc_black": "Black XC Girth",
  "item.bageksequineyaddon.english_girth_strap_xc_fluffy_black": "Black XC Fluffy Girth",
   "item.bageksequineyaddon.english_girth_strap_anatomic_black": "Black Anatomic Girth",
   "item.bageksequineyaddon.english_girth_strap_anatomic_fluffy_black": "Black Anatomic Fluffy Girth",
@@ -100,8 +103,19 @@
 
   "item.bageksequineyaddon.english_bridle_xc_black": "Black XC Bridle",
   "item.bageksequineyaddon.english_bridle_xc_fluffy_black": "Black XC Fluffy Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_splitear_black": "Black Splitear Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_doubleband_black": "Black Double Band Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_dropband_black": "Black Dropnose Band Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_leather_war_black": "Black Leather War Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_flash_black": "Black Flash Bridle",
+
   "item.bageksequineyaddon.english_bridle_xc_brown": "Brown XC Bridle",
   "item.bageksequineyaddon.english_bridle_xc_fluffy_brown": "Brown XC Fluffy Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_splitear_brown": "Brown Splitear Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_doubleband_brown": "Brown Double Band Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_dropband_brown": "Brown Dropnose Band Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_leather_war_brown": "Brown Leather War Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_flash_brown": "Brown Flash Bridle",
   "item.bageksequineyaddon.western_bridle_bagek_brown": "Brown Western Bridle",
 
   "item.bageksequineyaddon.english_blanket_bagek_1": "Bagek XC Pad",

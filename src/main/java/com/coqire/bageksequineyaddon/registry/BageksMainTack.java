@@ -39,6 +39,27 @@ public class BageksMainTack {
             () -> new EnglishBridleItem("english_bridle_xc_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
     public static final RegistryObject<EnglishBridleItem> english_bridle_xc_fluffy_brown = ITEMS.register("english_bridle_xc_fluffy_brown",
             () -> new EnglishBridleItem("english_bridle_xc_fluffy_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_leather_war_brown = ITEMS.register("english_bridle_bagek_leather_war_brown",
+            () -> new EnglishBridleItem("english_bridle_bagek_leather_war_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_leather_war_black = ITEMS.register("english_bridle_bagek_leather_war_black",
+            () -> new EnglishBridleItem("english_bridle_bagek_leather_war_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_splitear_brown = ITEMS.register("english_bridle_bagek_splitear_brown",
+            () -> new EnglishBridleItem("english_bridle_bagek_splitear_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_splitear_black = ITEMS.register("english_bridle_bagek_splitear_black",
+            () -> new EnglishBridleItem("english_bridle_bagek_splitear_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_doubleband_brown = ITEMS.register("english_bridle_bagek_doubleband_brown",
+            () -> new EnglishBridleItem("english_bridle_bagek_doubleband_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_doubleband_black = ITEMS.register("english_bridle_bagek_doubleband_black",
+            () -> new EnglishBridleItem("english_bridle_bagek_doubleband_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_dropband_brown = ITEMS.register("english_bridle_bagek_dropband_brown",
+            () -> new EnglishBridleItem("english_bridle_bagek_dropband_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_dropband_black = ITEMS.register("english_bridle_bagek_dropband_black",
+            () -> new EnglishBridleItem("english_bridle_bagek_dropband_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_flash_brown = ITEMS.register("english_bridle_bagek_flash_brown",
+            () -> new EnglishBridleItem("english_bridle_bagek_flash_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+    public static final RegistryObject<EnglishBridleItem> english_bridle_bagek_flash_black = ITEMS.register("english_bridle_bagek_flash_black",
+            () -> new EnglishBridleItem("english_bridle_bagek_flash_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+
 
     //WESTERN BRIDLES
     public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_BAGEK_BROWN = ITEMS.register("western_bridle_bagek_brown",
