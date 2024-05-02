@@ -24,6 +24,12 @@ public class BageksMainTack {
     public static final RegistryObject<EnglishSaddleItem> english_saddle_xc_brown = ITEMS.register("english_saddle_xc_brown",
             () -> new EnglishSaddleItem("english_saddle_xc_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
 
+    //WESTERN SADDLES
+    public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_BAGEK_BROWN = ITEMS.register("western_saddle_bagek_brown",
+            () -> new WesternSaddleItem("western_saddle_bagek_brown", new Item.Properties()
+                    .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+
+
     // ENGLISH BRIDLES
     public static final RegistryObject<EnglishBridleItem> english_bridle_xc_black = ITEMS.register("english_bridle_xc_black",
             () -> new EnglishBridleItem("english_bridle_xc_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
@@ -33,6 +39,12 @@ public class BageksMainTack {
             () -> new EnglishBridleItem("english_bridle_xc_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
     public static final RegistryObject<EnglishBridleItem> english_bridle_xc_fluffy_brown = ITEMS.register("english_bridle_xc_fluffy_brown",
             () -> new EnglishBridleItem("english_bridle_xc_fluffy_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+
+    //WESTERN BRIDLES
+    public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_BAGEK_BROWN = ITEMS.register("western_bridle_bagek_brown",
+            () -> new WesternBridleItem("western_bridle_bagek_brown", new Item.Properties()
+                    .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+
 
     // ENGLISH GIRTHS
     public static final RegistryObject<EnglishGirthStrap> english_girth_strap_xc_black = ITEMS.register("english_girth_strap_xc_black",
@@ -55,6 +67,11 @@ public class BageksMainTack {
             () -> new EnglishGirthStrap("english_girth_strap_fluffy_brown", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
     public static final RegistryObject<EnglishGirthStrap> english_girth_strap_fluffy_black = ITEMS.register("english_girth_strap_fluffy_black",
             () -> new EnglishGirthStrap("english_girth_strap_fluffy_black", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
+
+    //WESTERN GIRTHS
+    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_BAGEK_BROWN = ITEMS.register("western_girth_strap_bagek_brown",
+            () -> new WesternGirthStrapItem("western_girth_strap_bagek_brown", new Item.Properties()
+                    .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
 
     // ENGLISH BREAST COLLARS
     public static final RegistryObject<EnglishBreastCollar> english_breast_collar_xc_black = ITEMS.register("english_breast_collar_xc_black",
@@ -84,15 +101,4 @@ public class BageksMainTack {
 
 
     // TRAVEL BOOTS
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_travel_bagek_1 = ITEMS.register("english_leg_wraps_travel_bagek_1",
-            () -> new EnglishLegWraps("english_leg_wraps_travel_bagek_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_travel_bagek_4 = ITEMS.register("english_leg_wraps_travel_bagek_4",
-            () -> new EnglishLegWraps("english_leg_wraps_travel_bagek_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_travel_bagek_8 = ITEMS.register("english_leg_wraps_travel_bagek_8",
-            () -> new EnglishLegWraps("english_leg_wraps_travel_bagek_8", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_travel_bagek_9 = ITEMS.register("english_leg_wraps_travel_bagek_9",
-            () -> new EnglishLegWraps("english_leg_wraps_travel_bagek_9", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_travel_bagek_10 = ITEMS.register("english_leg_wraps_travel_bagek_10",
-            () -> new EnglishLegWraps("english_leg_wraps_travel_bagek_10", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16)));
-
 }

@@ -36,6 +36,7 @@ public class BageksTack {
     public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKET_BAGEK;
     public static final List<RegistryObject<WesternLegWraps>> WESTERN_LEG_WRAPS_BAGEK;
     public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLAR_BAGEK;
+    public static final List<RegistryObject<EnglishLegWraps>> TRAVEL_BOOTS_BAGEK;
 
 
     public static final Ingredient FOOD_ITEMS;
@@ -66,6 +67,7 @@ public class BageksTack {
         WESTERN_BLANKET_BAGEK = new ArrayList();
         WESTERN_BREAST_COLLAR_BAGEK = new ArrayList();
         WESTERN_LEG_WRAPS_BAGEK = new ArrayList();
+        TRAVEL_BOOTS_BAGEK = new ArrayList();
 
         int var1 = 20;
         var rContext = new Object() {
@@ -122,6 +124,11 @@ public class BageksTack {
 
             WESTERN_BREAST_COLLAR_BAGEK.add(ITEMS.register("western_breast_collar_bagek_" + counter, () ->
                     new WesternBreastCollarItem("western_breast_collar_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            TRAVEL_BOOTS_BAGEK.add(ITEMS.register("english_leg_wraps_travel_bagek_" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_travel_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
