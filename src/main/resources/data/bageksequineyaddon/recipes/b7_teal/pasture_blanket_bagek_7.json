@@ -14,13 +14,13 @@
       "item": "bageksequineyaddon:coralarite"
     },
     "a": {
-      "item": "minecraft:white_dye"
+      "item": "minecraft:cyan_dye"
     },
     "b": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:green_dye"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:pasture_blanket_bagek_p4"
+    "item": "bageksequineyaddon:pasture_blanket_bagek_7"
   }
 }
