@@ -37,6 +37,8 @@ public class BageksTack {
     public static final List<RegistryObject<WesternLegWraps>> WESTERN_LEG_WRAPS_BAGEK;
     public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLAR_BAGEK;
     public static final List<RegistryObject<EnglishLegWraps>> TRAVEL_BOOTS_BAGEK;
+    public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_ENGLISH_BAGEK;
+    public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKET_ENGLISH_BAGEK;
 
 
     public static final Ingredient FOOD_ITEMS;
@@ -68,6 +70,8 @@ public class BageksTack {
         WESTERN_BREAST_COLLAR_BAGEK = new ArrayList();
         WESTERN_LEG_WRAPS_BAGEK = new ArrayList();
         TRAVEL_BOOTS_BAGEK = new ArrayList();
+        ENGLISH_BLANKET_ENGLISH_BAGEK = new ArrayList();
+        ENGLISH_LEG_WRAPS_ENGLISH_BAGEK = new ArrayList();
 
         int var1 = 20;
         var rContext = new Object() {
@@ -129,6 +133,16 @@ public class BageksTack {
 
             TRAVEL_BOOTS_BAGEK.add(ITEMS.register("english_leg_wraps_travel_bagek_" + counter, () ->
                     new EnglishLegWraps("english_leg_wraps_travel_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            ENGLISH_LEG_WRAPS_ENGLISH_BAGEK.add(ITEMS.register("english_leg_wraps_english_bagek_" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_english_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            ENGLISH_BLANKET_ENGLISH_BAGEK.add(ITEMS.register("english_blanket_english_bagek_" + counter, () ->
+                    new EnglishBlanketItem("english_blanket_english_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
 
