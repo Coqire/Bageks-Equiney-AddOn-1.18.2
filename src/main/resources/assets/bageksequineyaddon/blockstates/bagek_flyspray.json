@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "bageksequineyaddon:block/bagek_flyspray"},
+    "facing=east": { "model": "bageksequineyaddon:block/bagek_flyspray", "y": 90},
+    "facing=south": { "model": "bageksequineyaddon:block/bagek_flyspray", "y": 180},
+    "facing=west": { "model": "bageksequineyaddon:block/bagek_flyspray", "y": 270}
+  }
+}

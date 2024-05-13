@@ -1,12 +1,14 @@
 package com.coqire.bageksequineyaddon.block;
 
 import com.coqire.bageksequineyaddon.BageksEquineyAddOn;
+import com.coqire.bageksequineyaddon.block.custom.BagekFlySprayBlock;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModeTab;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -48,6 +50,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f).requiresCorrectToolForDrops()), BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
 
+    public static final RegistryObject<Block> BAGEK_FLYSPRAY = registerBlock("bagek_flyspray",
+            () -> new BagekFlySprayBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),
+            BageksAddonCreativeModeTab.BAGEKSADDON_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
