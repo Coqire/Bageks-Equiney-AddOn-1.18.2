@@ -86,12 +86,15 @@
   "item.bageksequineyaddon.english_breast_collar_freemotion_brown": "Brown Dressage Breast Collar",
   "item.bageksequineyaddon.english_breast_collar_english_brown": "Brown English Breastcollar",
  "item.bageksequineyaddon.english_breast_collar_bagek_fivepoint_brown": "Brown Five Point Breast Collar",
+ "item.bageksequineyaddon.english_breast_collar_bagek_black": "Black English Breast Collar",
 
  "item.bageksequineyaddon.english_girth_strap_xc_black": "Black XC Girth",
  "item.bageksequineyaddon.english_girth_strap_xc_fluffy_black": "Black XC Fluffy Girth",
   "item.bageksequineyaddon.english_girth_strap_anatomic_black": "Black Anatomic Girth",
   "item.bageksequineyaddon.english_girth_strap_anatomic_fluffy_black": "Black Anatomic Fluffy Girth",
   "item.bageksequineyaddon.english_girth_strap_fluffy_black": "Black Fluffy Girth",
+ "item.bageksequineyaddon.english_girth_strap_bagek_black": "Black English Girth",
+
   "item.bageksequineyaddon.english_girth_strap_xc_brown": "Brown XC Girth",
   "item.bageksequineyaddon.english_girth_strap_xc_fluffy_brown": "Brown XC Fluffy Girth",
   "item.bageksequineyaddon.english_girth_strap_anatomic_brown": "Brown Anatomic Girth",
@@ -100,6 +103,8 @@
   "item.bageksequineyaddon.western_girth_strap_bagek_brown": "Brown Western Girth",
 
   "item.bageksequineyaddon.english_saddle_xc_black": "Black XC Saddle",
+ "item.bageksequineyaddon.english_saddle_bagek_black": "Black English Saddle",
+
   "item.bageksequineyaddon.english_saddle_xc_brown": "Brown XC Saddle",
   "item.bageksequineyaddon.western_saddle_bagek_brown": "Brown Western Saddle",
 
@@ -110,6 +115,7 @@
  "item.bageksequineyaddon.english_bridle_bagek_dropband_black": "Black Dropnose Band Bridle",
  "item.bageksequineyaddon.english_bridle_bagek_leather_war_black": "Black Leather War Bridle",
  "item.bageksequineyaddon.english_bridle_bagek_flash_black": "Black Flash Bridle",
+ "item.bageksequineyaddon.english_bridle_bagek_black": "Black English Bridle",
 
   "item.bageksequineyaddon.english_bridle_xc_brown": "Brown XC Bridle",
   "item.bageksequineyaddon.english_bridle_xc_fluffy_brown": "Brown XC Fluffy Bridle",
