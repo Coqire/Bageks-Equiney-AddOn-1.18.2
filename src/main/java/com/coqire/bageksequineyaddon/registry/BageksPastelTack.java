@@ -28,6 +28,8 @@ public class BageksPastelTack {
     public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKET_BAGEK_PASTEL;
     public static final List<RegistryObject<WesternLegWraps>> WESTERN_LEG_WRAPS_BAGEK_PASTEL;
     public static final List<RegistryObject<EnglishLegWraps>> TRAVEL_BOOTS_BAGEK_PASTEL;
+    public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKET_ENGLISH_BAGEK_PASTEL;
+    public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_ENGLISH_BAGEK_PASTEL;
 
     public static void init(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -47,6 +49,8 @@ public class BageksPastelTack {
         WESTERN_BLANKET_BAGEK_PASTEL = new ArrayList();
         WESTERN_LEG_WRAPS_BAGEK_PASTEL = new ArrayList();
         TRAVEL_BOOTS_BAGEK_PASTEL = new ArrayList();
+        ENGLISH_BLANKET_ENGLISH_BAGEK_PASTEL = new ArrayList();
+        ENGLISH_LEG_WRAPS_ENGLISH_BAGEK_PASTEL = new ArrayList();
 
         int var1 = 8;
         var rContext = new Object() {
@@ -110,6 +114,17 @@ public class BageksPastelTack {
                     new EnglishLegWraps("english_leg_wraps_travel_bagek_p" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
             ));
+
+            ENGLISH_BLANKET_ENGLISH_BAGEK_PASTEL.add(ITEMS.register("english_blanket_english_bagek_p" + counter, () ->
+                    new EnglishBlanketItem("english_blanket_english_bagek_p" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            ENGLISH_LEG_WRAPS_ENGLISH_BAGEK_PASTEL.add(ITEMS.register("english_leg_wraps_english_bagek_p" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_english_bagek_p" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
 
             ++rContext.var2;
 
