@@ -15,6 +15,9 @@
     },
     "a": {
       "item": "minecraft:white_dye"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
     }
   },
   "result": {

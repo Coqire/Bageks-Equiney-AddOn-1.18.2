@@ -15,6 +15,9 @@
     },
     "a": {
       "item": "minecraft:yellow_dye"
+    },
+    "b": {
+      "item": "minecraft:yellow_dye"
     }
   },
   "result": {
