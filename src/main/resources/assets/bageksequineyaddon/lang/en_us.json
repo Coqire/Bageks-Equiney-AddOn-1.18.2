@@ -241,6 +241,8 @@
   "item.bageksequineyaddon.pasture_blanket_patterned5": "Plaid Blanket 5",
   "item.bageksequineyaddon.pasture_blanket_patterned6": "Plaid Blanket 6",
 
+ "item.bageksequineyaddon.pasture_blanket_zebra_bagek": "Zebra Pasture Blanket",
+
   "item.bageksequineyaddon.pasture_blanket_flysheet_bagek_1": "Bagek Flysheet",
   "item.bageksequineyaddon.pasture_blanket_flysheet_bagek_4": "Plum Flysheet",
   "item.bageksequineyaddon.pasture_blanket_flysheet_bagek_8": "Asheerah Flysheet",
@@ -480,6 +482,13 @@
  "item.bageksequineyaddon.english_blanket_english_bagek_p5": "Winter English Blanket",
  "item.bageksequineyaddon.english_blanket_english_bagek_p6": "Sherbet English Blanket",
  "item.bageksequineyaddon.english_blanket_english_bagek_p7": "Coral English Blanket",
+
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_1": "Bagek Breastcollar/QuarterSheet",
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_8": "Asheerah Breastcollar/QuarterSheet",
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_9": "Black Breastcollar/QuarterSheet",
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_14": "White Breastcollar/QuarterSheet",
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_p3": "Lilac Breastcollar/QuarterSheet",
+ "item.bageksequineyaddon.quartersheet_breastcollar_bagek_p5": "Winter Breastcollar/QuarterSheet",
 
   "itemGroup.bageksaddontab": "Bageks Add-on"
 
