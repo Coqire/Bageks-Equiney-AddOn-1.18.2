@@ -2,11 +2,20 @@
   "replace": false,
   "values": [
 
+    "bageksequineyaddon:english_bridle_bagek_black",
+    "bageksequineyaddon:english_bridle_bagek_doubleband_black",
+    "bageksequineyaddon:english_bridle_bagek_doubleband_brown",
+    "bageksequineyaddon:english_bridle_bagek_dropband_black",
+    "bageksequineyaddon:english_bridle_bagek_dropband_brown",
+    "bageksequineyaddon:english_bridle_bagek_flash_black",
+    "bageksequineyaddon:english_bridle_bagek_flash_brown",
+    "bageksequineyaddon:english_bridle_bagek_leather_war_black",
+    "bageksequineyaddon:english_bridle_bagek_leather_war_brown",
+    "bageksequineyaddon:english_bridle_bagek_splitear_black",
+    "bageksequineyaddon:english_bridle_bagek_splitear_brown",
     "bageksequineyaddon:black_english_xc_bridle",
     "bageksequineyaddon:black_english_xc_fluffy_bridle",
     "bageksequineyaddon:english_bridle_xc_brown",
-    "bageksequineyaddon:english_bridle_xc_fluffy_brown",
-    "bageksequineyaddon:english_girth_strap_xc_brown",
-    "bageksequineyaddon:english_girth_strap_xc_fluffy_brown"
+    "bageksequineyaddon:english_bridle_xc_fluffy_brown"
   ]
 }

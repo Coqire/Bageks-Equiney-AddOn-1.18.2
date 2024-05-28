@@ -1,5 +1,6 @@
 package com.coqire.bageksequineyaddon.item;
 
+import com.alaharranhonor.swem.forge.client.render.SWEMHorseRenderer;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
