@@ -39,7 +39,5 @@ public class BageksEquineyAddOn {
 
     private void setup(final FMLCommonSetupEvent event) {
 
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BAGEK_FLYSPRAY.get(), RenderType.cutout());
-
     }
 }
