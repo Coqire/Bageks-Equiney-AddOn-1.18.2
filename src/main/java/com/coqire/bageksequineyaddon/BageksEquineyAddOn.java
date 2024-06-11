@@ -31,6 +31,7 @@ public class BageksEquineyAddOn {
         BageksMainTack.init(eventBus);
         BageksOneOffTack.init(eventBus);
         BageksOriginalTack.init(eventBus);
+        BageksFeed.init(eventBus);
 
         eventBus.addListener(this::setup);
 
