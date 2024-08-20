@@ -39,6 +39,11 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishLegWraps>> TRAVEL_BOOTS_BAGEK;
     public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_ENGLISH_BAGEK;
     public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKET_ENGLISH_BAGEK;
+    public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKET_BAGEK_FLYSHEET;
+    public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_TENDON_BAGEK;
+    public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE_XC_BAGEK;
+    public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_XC_BAGEK;
+    public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK;
 
 
     public static final Ingredient FOOD_ITEMS;
@@ -72,6 +77,11 @@ public class BageksTack {
         TRAVEL_BOOTS_BAGEK = new ArrayList();
         ENGLISH_BLANKET_ENGLISH_BAGEK = new ArrayList();
         ENGLISH_LEG_WRAPS_ENGLISH_BAGEK = new ArrayList();
+        PASTURE_BLANKET_BAGEK_FLYSHEET = new ArrayList();
+        ENGLISH_LEG_WRAPS_TENDON_BAGEK = new ArrayList();
+        ENGLISH_SADDLE_XC_BAGEK = new ArrayList();
+        ENGLISH_BRIDLE_XC_BAGEK = new ArrayList();
+        ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK = new ArrayList();
 
         int var1 = 20;
         var rContext = new Object() {
@@ -144,6 +154,32 @@ public class BageksTack {
             ENGLISH_BLANKET_ENGLISH_BAGEK.add(ITEMS.register("english_blanket_english_bagek_" + counter, () ->
                     new EnglishBlanketItem("english_blanket_english_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(16))
+            ));
+
+            PASTURE_BLANKET_BAGEK_FLYSHEET.add(ITEMS.register("pasture_blanket_bagek_flysheet_" + counter, () ->
+                    new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                            "pasture_blanket_bagek_flysheet_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            ENGLISH_BRIDLE_XC_BAGEK.add(ITEMS.register("english_bridle_xc_bagek_" + counter, () ->
+                    new EnglishBridleItem("english_bridle_xc_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            ENGLISH_SADDLE_XC_BAGEK.add(ITEMS.register("english_saddle_xc_bagek_" + counter, () ->
+                    new EnglishSaddleItem("english_saddle_xc_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            ENGLISH_LEG_WRAPS_TENDON_BAGEK.add(ITEMS.register("english_leg_wraps_tendon_bagek_" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_tendon_bagek_" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            ENGLISH_LEG_WRAPS_TENDON_BAGEK.add(ITEMS.register("english_leg_wraps_tendon_bagek_f" + counter, () ->
+                    new EnglishLegWraps("english_leg_wraps_tendon_bagek_f" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
             ));
 
 
