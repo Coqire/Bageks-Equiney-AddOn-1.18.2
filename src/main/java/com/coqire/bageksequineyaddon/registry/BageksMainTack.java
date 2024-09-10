@@ -181,21 +181,21 @@ public class BageksMainTack {
             () -> new EnglishBreastCollar("english_breast_collar_bagek_c4", new Item.Properties()
                     .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
 
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_c1 = ITEMS.register("english_leg_wraps_bagek_c1",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_c1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_c2 = ITEMS.register("english_leg_wraps_bagek_c2",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_c2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_c3 = ITEMS.register("english_leg_wraps_bagek_c3",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_c3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_c4 = ITEMS.register("english_leg_wraps_bagek_c4",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_c4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_c1 = ITEMS.register("english_leg_wraps_tendon_bagek_c1",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_c1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_c2 = ITEMS.register("english_leg_wraps_tendon_bagek_c2",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_c2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_c3 = ITEMS.register("english_leg_wraps_tendon_bagek_c3",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_c3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_c4 = ITEMS.register("english_leg_wraps_tendon_bagek_c4",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_c4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
 
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_fc1 = ITEMS.register("english_leg_wraps_bagek_fc1",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_fc1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_fc2 = ITEMS.register("english_leg_wraps_bagek_fc2",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_fc2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_fc3 = ITEMS.register("english_leg_wraps_bagek_fc3",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_fc3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_bagek_fc4 = ITEMS.register("english_leg_wraps_bagek_fc4",
-            () -> new EnglishLegWraps("english_leg_wraps_bagek_fc4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_fc1 = ITEMS.register("english_leg_wraps_tendon_bagek_fc1",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_fc1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_fc2 = ITEMS.register("english_leg_wraps_tendon_bagek_fc2",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_fc2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_fc3 = ITEMS.register("english_leg_wraps_tendon_bagek_fc3",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_fc3", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
+    public static final RegistryObject<EnglishLegWraps> english_leg_wraps_tendon_bagek_fc4 = ITEMS.register("english_leg_wraps_tendon_bagek_fc4",
+            () -> new EnglishLegWraps("english_leg_wraps_tendon_bagek_fc4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
 }
