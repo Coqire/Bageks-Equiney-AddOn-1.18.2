@@ -35,6 +35,7 @@ public class BageksPastelTack {
     public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE_XC_BAGEK_PASTEL;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_XC_BAGEK_PASTEL;
     public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK_PASTEL;
+    public static final List<RegistryObject<WesternBreastCollarItem>> QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL;
 
     public static void init(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -61,6 +62,7 @@ public class BageksPastelTack {
         ENGLISH_SADDLE_XC_BAGEK_PASTEL = new ArrayList();
         ENGLISH_BRIDLE_XC_BAGEK_PASTEL = new ArrayList();
         ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK_PASTEL = new ArrayList();
+        QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL = new ArrayList();
 
         int var1 = 8;
         var rContext = new Object() {
@@ -158,6 +160,11 @@ public class BageksPastelTack {
 
             ENGLISH_LEG_WRAPS_TENDON_BAGEK_PASTEL.add(ITEMS.register("english_leg_wraps_tendon_bagek_fp" + counter, () ->
                     new EnglishLegWraps("english_leg_wraps_tendon_bagek_fp" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL.add(ITEMS.register("quartersheet_breastcollar_bagek_p" + counter, () ->
+                    new WesternBreastCollarItem("quartersheet_breastcollar_bagek_p" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
             ));
 

@@ -44,6 +44,7 @@ public class BageksTack {
     public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE_XC_BAGEK;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_XC_BAGEK;
     public static final List<RegistryObject<EnglishLegWraps>> ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK;
+    public static final List<RegistryObject<WesternBreastCollarItem>> QUARTERSHEET_BREASTCOLLAR_BAGEK;
 
 
     public static final Ingredient FOOD_ITEMS;
@@ -82,6 +83,7 @@ public class BageksTack {
         ENGLISH_SADDLE_XC_BAGEK = new ArrayList();
         ENGLISH_BRIDLE_XC_BAGEK = new ArrayList();
         ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK = new ArrayList();
+        QUARTERSHEET_BREASTCOLLAR_BAGEK = new ArrayList();
 
         int var1 = 20;
         var rContext = new Object() {
@@ -179,6 +181,11 @@ public class BageksTack {
 
             ENGLISH_LEG_WRAPS_TENDON_BAGEK.add(ITEMS.register("english_leg_wraps_tendon_bagek_f" + counter, () ->
                     new EnglishLegWraps("english_leg_wraps_tendon_bagek_f" + counter, (new Item.Properties())
+                            .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
+            ));
+
+            QUARTERSHEET_BREASTCOLLAR_BAGEK.add(ITEMS.register("quartersheet_breastcollar_bagek_" + counter, () ->
+                    new WesternBreastCollarItem("quartersheet_breastcollar_bagek_" + counter, (new Item.Properties())
                             .tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64))
             ));
 
