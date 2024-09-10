@@ -55,25 +55,6 @@ public class BageksOneOffTack {
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_patterned6", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
 
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_1 = ITEMS.register("quartersheet_breastcollar_bagek_1",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_1",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_8 = ITEMS.register("quartersheet_breastcollar_bagek_8",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_8",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_9 = ITEMS.register("quartersheet_breastcollar_bagek_9",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_9",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_14 = ITEMS.register("quartersheet_breastcollar_bagek_14",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_14",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_P3 = ITEMS.register("quartersheet_breastcollar_bagek_p3",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_p3",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<WesternBreastCollarItem> QUARTERSHEET_BREASTCOLLAR_BAGEK_P5 = ITEMS.register("quartersheet_breastcollar_bagek_p5",
-            () -> new WesternBreastCollarItem("quartersheet_breastcollar_bagek_p5",
-                    new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_ZEBRA_BAGEK = ITEMS.register("pasture_blanket_zebra_bagek",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "pasture_blanket_zebra_bagek", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
