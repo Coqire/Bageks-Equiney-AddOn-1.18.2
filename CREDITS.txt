@@ -11,6 +11,19 @@
   SWEMS mod belongs to them and this mod only uses their models and animations to create more items.
 
   ∞ CREDITS TO THE HELPERS ∞
+
+  Andreja : Texture Artist
+  -
+
+  Bagek : Dev/Texture Artist
+  -
+
+  Leih : Texture Artist
+  -
+
+
+  ---PAST HELPERS---
+
   Asheerah : Texture Artist : Click their links below to join either their discord server or view their kofi.
   - https://discord.gg/zk9AYEQQ7P
   - https://ko-fi.com/asheerah
@@ -18,11 +31,8 @@
   Reese : Texture Artist : Click their link below to view their kofi
   - https://ko-fi.com/reesescorner
 
-  Phantom : Devy : Click their link below to view their linktree
+  Phantom : Dev : Click their link below to view their linktree
   - https://linktr.ee/PhantomsKeep
-
-  Emma : Model Artist : Click their link below to view their -
-  - NOT AVAILABLE
 
 
   ∞ GUIDANCE CREDITS ∞
@@ -40,35 +50,35 @@
 ===TEXTURES ONLY===
 
 -----Asheerah-----
-HALTER/FLUFFY TEXTURES (1-26)
-XC/WESTERN/ENGLISH SADDLEPADS (1-26)
-XC/WESTERN/ENGLISH LEG WRAPS (1-26)
 PASTURE BLANKETS (1-26)
 ALL BLACK/BROWN TACK
-ALL HALTER/BRIDLE RACKS (1-26)
-FLYMASKS (1-26)
-TRAVEL BOOTS (1-26)
-FLYSHEETS (1-5)
-PLAID BLANKETS (1-3)
 QUARTER SHEETS (1-26)
 BREASTCOLLARS (1-5)
-ALL ICONS
 
 -----Bagek-----
-SUNBURST ORE/BLOCK/DEEPSLATE
-SUNBURST
-BAGUETTE_FOOD
+SUNBURST ORE/BLOCK/DEEPSLATE/SUNBURST
+RAW EQUIUM/CORALARITE/SUNBURST
+BAGUETTE
 FLUFFY MC HALTERS (1-16)
 ALL SADDLERACKS
-SUNBURST WEAPONS
-CORALARITE WEAPONS
-EQUIUM WEAPONS
-PINK/BLUE/YELLOW DONUT TREAT + ICONS
-BAGEK RECIPES
-ALL BLACK/BROWN TACK RECIPES
+SUNBURST/CORALARITE/EQUIUM WEAPONS
+PINK/BLUE/YELLOW DONUT TREAT
+RECIPES
 BRIDLES (1-5)
-GIRTH STRAPS (1-3) + ICONS
-PLAID BLANKETS (4-6)
+GIRTH STRAPS (1-3)
+RACING SETS
+FLYMASKS
+TRAVEL BOOTS
+ICONS
+
+-----ANDREJA-----
+FLYSHEETS
+PASTURE BLANKETS
+LUNGE GEAR
+
+-----LEIH-----
+WESTERN SETS
+XC SETS
 
 -----Reese-----
 XC LEG WRAP ICONS (1-15)
@@ -81,13 +91,5 @@ EQUIUM ORE/BLOCK_DEEPSLATE/EQUIUM/SHARD
 SUNBURST SHARD
 
 -----Phantom------
-ALL RECIPES
+RECIPES
 
------Emma-----
-FLYSPRAY BOTTLE
-FARRIER KIT
-FIRST AID BOX
-SUPPLEMENT BOTTLE
-COCOSUN CREAM
-PAIN RELIEF CREAM
-THREE BOTTLE SET
