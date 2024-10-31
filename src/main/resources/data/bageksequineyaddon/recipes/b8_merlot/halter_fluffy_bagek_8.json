@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "group": "halter",
   "pattern": [
-    "x x",
-    " w ",
+    "xvx",
+    " x ",
     "y z"
   ],
   "key": {
@@ -13,14 +13,14 @@
     "y": {
       "item": "minecraft:red_dye"
     },
-    "w": {
-      "item": "bageksequineyaddon:coralarite"
-    },
     "z": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:light_gray_dye"
+    },
+    "v": {
+      "item": "minecraft:string"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:halter_bagek_1"
+    "item": "bageksequineyaddon:halter_fluffy_bagek_8"
   }
 }

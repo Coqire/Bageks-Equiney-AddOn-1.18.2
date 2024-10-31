@@ -3,7 +3,7 @@
   "group": "halter",
   "pattern": [
     "xvx",
-    " w ",
+    " x ",
     "y z"
   ],
   "key": {
@@ -11,19 +11,16 @@
       "item": "minecraft:white_carpet"
     },
     "y": {
-      "item": "minecraft:red_dye"
-    },
-    "w": {
-      "item": "bageksequineyaddon:coralarite"
+      "item": "minecraft:orange_dye"
     },
     "z": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:light_gray_dye"
     },
     "v": {
       "item": "minecraft:string"
     }
   },
   "result": {
-    "item": "bageksequineyaddon:halter_fluffy_bagek_1"
+    "item": "bageksequineyaddon:halter_fluffy_bagek_12"
   }
 }

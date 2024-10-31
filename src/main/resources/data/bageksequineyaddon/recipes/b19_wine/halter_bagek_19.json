@@ -3,7 +3,7 @@
   "group": "halter",
   "pattern": [
     "x x",
-    " w ",
+    " x ",
     "y z"
   ],
   "key": {
@@ -12,9 +12,6 @@
     },
     "y": {
       "item": "minecraft:red_dye"
-    },
-    "w": {
-      "item": "bageksequineyaddon:coralarite"
     },
     "z": {
       "item": "minecraft:gray_dye"

@@ -3,15 +3,12 @@
   "group": "halter",
   "pattern": [
     "xvx",
-    " w ",
+    " x ",
     "x z"
   ],
   "key": {
     "x": {
       "item": "minecraft:white_carpet"
-    },
-    "w": {
-      "item": "bageksequineyaddon:coralarite"
     },
     "z": {
       "item": "minecraft:black_dye"
