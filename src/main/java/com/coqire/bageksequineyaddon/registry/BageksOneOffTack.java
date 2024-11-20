@@ -21,20 +21,6 @@ public class BageksOneOffTack {
         ITEMS.register(eventBus);
     }
 
-    // STAFF ITEMS
-    public static final RegistryObject<HalterItem> halter_bagek_staff_2 = ITEMS.register("halter_bagek_staff_2",
-            () -> new HalterItem("halter_bagek_staff_2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_staff_2 = ITEMS.register("halter_fluffy_bagek_staff_2",
-            () -> new HalterItem("halter_fluffy_bagek_staff_2", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<HalterItem> halter_bagek_staff_4 = ITEMS.register("halter_bagek_staff_4",
-            () -> new HalterItem("halter_bagek_staff_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<HalterItem> HALTER_fluffy_bagek_staff_4 = ITEMS.register("halter_fluffy_bagek_staff_4",
-            () -> new HalterItem("halter_fluffy_bagek_staff_4", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<HalterItem> halter_bagek_staff_1 = ITEMS.register("halter_bagek_staff_1",
-            () -> new HalterItem("halter_bagek_staff_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-    public static final RegistryObject<HalterItem> halter_fluffy_bagek_staff_1 = ITEMS.register("halter_fluffy_bagek_staff_1",
-            () -> new HalterItem("halter_fluffy_bagek_staff_1", new Item.Properties().tab(BageksAddonCreativeModeTab.BAGEKSADDON_TAB).stacksTo(64)));
-
     // PATTERNED PLAID BLANKETS
     public static final RegistryObject<Item> pasture_blanket_patterned1 = ITEMS.register("pasture_blanket_patterned1",
             () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
